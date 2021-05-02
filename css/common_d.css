@@ -1,0 +1,124 @@
+@charset "UTF-8";
+.star-cb-group {
+  font-size: 0;
+  unicode-bidi: bidi-override;
+  direction: rtl
+}
+
+.star-cb-group * {
+  font-size: 0.5625rem;;
+}
+
+.star-cb-group>input {
+  display: none
+}
+
+.star-cb-group>input+label {
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 9999px;
+  width: 1em;
+  white-space: nowrap;
+  cursor: pointer
+}
+
+.star-cb-group>input+label:before {
+  display: inline-block;
+  text-indent: -9999px;
+  content: "��";
+  color: #2b80ff
+}
+
+#review_popup .star-cb-group>input:checked~label:before,
+#review_popup .star-cb-group>input+label:hover~label:before,
+#review_popup .star-cb-group>input+label:hover:before {
+  content: "��";
+  color: #2b80ff;
+  text-shadow: 0 0 1px #333
+}
+
+.star-cb-group>.star-cb-clear+label {
+  text-indent: -9999px;
+  width: .5em;
+  margin-left: -.5em
+}
+
+.star-cb-group>.star-cb-clear+label:before {
+  width: .5em
+}
+
+#review_popup .star-cb-group:hover>input+label:before {
+  content: "��";
+  color: #2b80ff;
+  text-shadow: none
+}
+
+#review_popup .star-cb-group:hover>input+label:hover~label:before,
+#review_popup .star-cb-group:hover>input+label:hover:before {
+  content: "��";
+  color: #2b80ff;
+  text-shadow: 0 0 1px #333
+}
+
+:root {
+  font-size: 2em;
+  font-family: Helvetica, arial, sans-serif
+}
+
+
+
+fieldset {
+  border: 0;
+  background: #222;
+  width: 5em;
+  border-radius: 1px;
+  padding: 1em 1.5em 0.9em;
+  margin: 1em auto
+}
+
+#log {
+  margin: 1em auto;
+  width: 5em;
+  text-align: center;
+  background: transparent
+}
+/*蹂꾨걹*/
+.ico_new{font-size: 16px; color:#2b80ff;text-transform: uppercase;font-style: normal;font-weight: 500}
+/*font-color*/
+.ft-color01{color:#32a2db}
+.ft-color02{color:#e28223}
+.ft-color03{color:#6e73dd}
+.ft-color04{color:#ff194a}
+.ft-color05{color:#ccc}
+.ft-color06{color:#666;}
+mark{background: none;  color: #2b80ff;  font-style: normal;}
+
+
+i.icon-heart-b {
+  background-image: url("../images/common/icon-heart-b.png");
+  background-size: contain;
+}
+
+i.icon-bag-b {
+  background-image: url("../images/common/icon-bag-b.png");
+  background-size: contain;
+}
+
+i.icon-plus-b {
+  background-image: url("../images/common/icon-plus-b.png");
+  background-size: contain;
+}
+i.icon-minus-b {
+  background-image: url("../images/common/icon-minus-b.png");
+  background-size: contain;
+}
+
+i.icon-user-b {
+  background-image: url("../images/common/icon-user-b.png");
+  background-size: contain;
+}
+
+i.icon-map-b {
+  background-image: url("../images/common/icon-map-b.png");
+  background-size: contain;
+}
