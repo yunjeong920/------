@@ -7,10 +7,6 @@ body{
   margin: 0 auto;
 }
 
-.up-on-scroll{
-  transition: transform 0.7s, opacity;
-}
-
 #go_to_top{
   position: fixed;
   display: inline-block;
@@ -250,13 +246,14 @@ input[type=checked]#gnbcheck{ display: none; }
 
 /* 메인 컨텐츠 */
 .swiper-button-next::after, .swiper-button-prev::after{
-  margin-top: 200px;
+  top: 60%;
 }
 
 #main-content{
   word-break: keep-all;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
+  max-height: 1100px;
 }
 
 #main-content .swiper-container{
@@ -723,8 +720,9 @@ input[type=checked]#gnbcheck{ display: none; }
 #five{
   margin-top: 180px;
   width: 100%;
+  height: 100%;
   max-width: 1700px;
-  height: 1100px;
+  max-height: 1100px;
 }
 
 #five .main-insta{
@@ -733,11 +731,21 @@ input[type=checked]#gnbcheck{ display: none; }
   position: relative;
   background: #f5f5f5;
   padding-bottom: 10px;
+  overflow: hidden;
+  background-size: cover;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 #five .main-insta .instaimg{
   width: 410px;
   height: 410px;
+}
+
+#five .main-insta .instaimg img{
+  width: auto;
+  height: auto;
+  overflow: hidden;
 }
 
 #five .insta-wrap .instaimg:first-child{
@@ -759,6 +767,7 @@ input[type=checked]#gnbcheck{ display: none; }
   justify-content: space-around;
   align-content: center;
   z-index: 100;
+  overflow: hidden;
 }
 
 #five .insta-wrap2{
@@ -767,12 +776,14 @@ input[type=checked]#gnbcheck{ display: none; }
   align-content: center;
   justify-content: space-around;
   z-index: 100;
+  overflow: hidden;
 }
 
 /* 섹션6 */
 #six{
   width: 100%;
   min-height: 700px;
+  margin-top: 180px;
   margin-bottom: 180px;
 }
 
@@ -831,7 +842,7 @@ input[type=checked]#gnbcheck{ display: none; }
 #footer{
   background: #383431;
   padding: 60px;
-  width: 1700px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -843,6 +854,7 @@ input[type=checked]#gnbcheck{ display: none; }
 }
 
 #footer .footer-wrap .footimg{
+  margin-right: 30px;
 }
 
 #footer .footer-wrap .footer-info{
