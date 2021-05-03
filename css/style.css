@@ -69,7 +69,7 @@ input[type=checked]#gnbcheck{ display: none; }
   height: 40px;
   top: 10px;
   right: 10px;
-  z-index: 5001;
+  z-index: 8000;
   display: none;
 }
 
@@ -97,7 +97,6 @@ input[type=checked]#gnbcheck{ display: none; }
   width: 32px;
   height: 32px;
   z-index: 9001;
-  /* display: none; */
 }
 
 #gnbbtn span{
@@ -114,7 +113,8 @@ input[type=checked]#gnbcheck{ display: none; }
 
 #headerwrap{
   position: fixed;
-  width: 1700px;
+  width: 100%;
+  max-width: 1700px;
   margin: 0 auto;
   background: #fff;
   z-index: 5000;
@@ -130,6 +130,7 @@ input[type=checked]#gnbcheck{ display: none; }
 
 #headerwrap .header .mainlogo{
   position: absolute;
+  display: inline-block;
   top: 30%
 }
 
@@ -154,7 +155,7 @@ input[type=checked]#gnbcheck{ display: none; }
 
 #headerwrap .header .gnb .mainmenu > li > a{
   position: relative;
-  display: block;
+  display: inline-block;
   font-size: 22px;
   line-height: 130px;
   color: black;
@@ -165,6 +166,7 @@ input[type=checked]#gnbcheck{ display: none; }
 }
 
 #headerwrap .header .gnb .mainmenu > li > a::after{
+  display: inline-block;
   content: '';
   opacity: 0;
   background: #c27a34;
@@ -199,13 +201,13 @@ input[type=checked]#gnbcheck{ display: none; }
   background: white;
 }
 
-/* #headerwrap .header .gnb .mainmenu > li:hover > .submenu{
-  display: block;
-} */
-
-#headerwrap .header .gnb:hover .submenu{
+#headerwrap .header .gnb .mainmenu > li:hover > .submenu{
   display: block;
 }
+
+/* #headerwrap .header .gnb:hover .submenu{
+  display: block;
+} */
 
 /* sub 메뉴 */
 .mainmenu .submenu{
@@ -240,6 +242,9 @@ input[type=checked]#gnbcheck{ display: none; }
 
 .mainmenu .submenu li:hover a{
   background: #fff;
+}
+
+.mainmenu .submenu li a:hover{
   color: #c27a34;
 }
 
