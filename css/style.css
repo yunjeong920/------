@@ -249,6 +249,10 @@ input[type=checked]#gnbcheck{ display: none; }
 }
 
 /* 메인 컨텐츠 */
+.swiper-button-next::after, .swiper-button-prev::after{
+  margin-top: 200px;
+}
+
 #main-content{
   word-break: keep-all;
   width: 100%;
