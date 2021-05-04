@@ -40,6 +40,9 @@
     width: 100%;
     display: block;
   }
+  #third .third-info{
+    padding-right: 30px;
+  }
   #third .item-wrap .item .item1{
     display: flex;
     align-items: flex-end;
@@ -121,7 +124,7 @@
     width: 100%;
     max-width: 410px;
     max-width: 1200px;
-    left: 15%;
+    left: 10%;
     margin-left: 0;
     margin-top: 100px;
     margin-right: 40px;
@@ -131,7 +134,7 @@
     display: inline-block;
     width: 100%;
     margin-top: 100px;
-    left: 50%;
+    left: 55%;
     bottom: 600px;
   }
   #second .second-menu .img3{
@@ -139,14 +142,14 @@
     display: inline-block;
     width: 100%;
     bottom: 590px;
-    left: 15%;
+    left: 10%;
   }
   #second .second-menu .img4{
     position: relative;
     display: inline-block;
     width: 100%;
     bottom: 1090px;
-    left: 50%;
+    left: 55%;
   }
   #second .second-menu .menu1{
     margin: 30px;
@@ -180,7 +183,7 @@
     height: 100%;
   }
   #six .info-wrap .info-text{
-    margin-left: 25px;
+    margin-left: 50px;
   }
   #six .info-wrap .info-text .fw-400{
     font-size: 16px;
