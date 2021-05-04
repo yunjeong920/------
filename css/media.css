@@ -105,6 +105,96 @@
     margin-right: 30px;
   }
 }
+@media screen and ( max-width: 1200px ) {
+  #all-wrap{ width: 100%; }
+  #second{ width: 100%; max-height: 1200px; }
+  #second .second-menu{
+    /* overflow: hidden; */
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  #second .second-menu .img1{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 410px;
+    max-width: 1200px;
+    left: 15%;
+    margin-left: 0;
+    margin-top: 100px;
+    margin-right: 40px;
+  }
+  #second .second-menu .img2{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 100px;
+    left: 50%;
+    bottom: 600px;
+  }
+  #second .second-menu .img3{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    bottom: 590px;
+    left: 15%;
+  }
+  #second .second-menu .img4{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    bottom: 1090px;
+    left: 50%;
+  }
+  #second .second-menu .menu1{
+    margin: 30px;
+    width: 100%;
+    max-width: 360px;
+  }
+  #second .second-menu .menu1 .menu-top{
+    display: block;
+    margin-right: 20px;
+  }
+  #second .second-menu .menu1 .menu-top i{
+    position: absolute;
+    top: 5px;
+    left: 95%;
+  }
+  #second .second-menu .menu1 .menu-btn span{
+    width: 100%;
+    max-width: 380px;
+  }
+  #third .third-info{
+    padding-right: 30px;
+  }
+  #five .main-insta .instaimg{
+    width: 250px;
+    height: 250px;
+  }
+  #six{ max-width: 1200px;}
+  #six .info-wrap .info-img img{
+    width: 70%;
+    max-width: 570px;
+    height: 100%;
+  }
+  #six .info-wrap .info-text{
+    margin-left: 25px;
+  }
+  #six .info-wrap .info-text .fw-400{
+    font-size: 16px;
+  }
+  #six .info-wrap .info-text .fs-50{
+    font-size: 40px;
+  }
+  #six .info-wrap .info-text p{
+    font-size: 14px;
+  }
+  #six .info-wrap .info-icon .info-text{
+    margin-left: 50px;
+  }
+}
 
 @media screen and ( max-width: 960px ) {
 

@@ -795,16 +795,20 @@ input[type=checked]#gnbcheck{ display: none; }
 }
 
 #six .info-wrap .info-img{
-  display: inline-block;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 #six .info-wrap .info-img img{
   width: 80%;
   height: 100%;
+  overflow: hidden;
 }
 
 #six .info-wrap .info-text{
   margin-left: 50px;
+  margin-right: 50px;
   height: 100%;
 }
 
