@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*font : Noto Sans Korean*/
-@font-face { font-family: "Noto Sans Korean"; src: url("/fonts/NotoSans/NotoSans-Thin.woff2") format("woff2"), url("/fonts/NotoSans/NotoSans-Thin.woff") format("woff"), url("/fonts/NotoSans/NotoSans-Thin.eot?") format("eot"), url("/fonts/NotoSans/NotoSans-Thin.otf") format("opentype"); font-weight: 100; }
+/* @font-face { font-family: "Noto Sans Korean"; src: url("/fonts/NotoSans/NotoSans-Thin.woff2") format("woff2"), url("/fonts/NotoSans/NotoSans-Thin.woff") format("woff"), url("/fonts/NotoSans/NotoSans-Thin.eot?") format("eot"), url("/fonts/NotoSans/NotoSans-Thin.otf") format("opentype"); font-weight: 100; }
 
 @font-face { font-family: "Noto Sans Korean"; src: url("/fonts/NotoSans/NotoSans-Light.woff2") format("woff2"), url("/fonts/NotoSans/NotoSans-Light.woff") format("woff"), url("/fonts/NotoSans/NotoSans-Light.eot?") format("eot"), url("/fonts/NotoSans/NotoSans-Light.otf") format("opentype"); font-weight: 200; }
 
@@ -15,7 +15,7 @@
 @font-face { font-family: "Noto Sans Korean"; src: url("/fonts/NotoSans/NotoSans-Black.woff2") format("woff2"), url("/fonts/NotoSans/NotoSans-Black.woff") format("woff"), url("/fonts/NotoSans/NotoSans-Black.eot?") format("eot"), url("/fonts/NotoSans/NotoSans-Black.otf") format("opentype"); font-weight: 900; }
 
 /*font : Montserrat*/
-@font-face { font-family: "Montserrat"; src: url("/fonts/Montserrat/montserrat-v14-latin-100.woff2") format("woff2"), url("/fonts/Montserrat/montserrat-v14-latin-100.woff") format("woff"), url("/fonts/Montserrat/montserrat-v14-latin-100.eot?") format("eot"), url("/fonts/Montserrat/montserrat-v14-latin-100.otf") format("opentype"); font-weight: 100; }
+/* @font-face { font-family: "Montserrat"; src: url("/fonts/Montserrat/montserrat-v14-latin-100.woff2") format("woff2"), url("/fonts/Montserrat/montserrat-v14-latin-100.woff") format("woff"), url("/fonts/Montserrat/montserrat-v14-latin-100.eot?") format("eot"), url("/fonts/Montserrat/montserrat-v14-latin-100.otf") format("opentype"); font-weight: 100; }
 
 @font-face { font-family: "Montserrat"; src: url("/fonts/Montserrat/montserrat-v14-latin-200.woff2") format("woff2"), url("/fonts/Montserrat/montserrat-v14-latin-200.woff") format("woff"), url("/fonts/Montserrat/montserrat-v14-latin-200.eot?") format("eot"), url("/fonts/Montserrat/montserrat-v14-latin-200.otf") format("opentype"); font-weight: 200; }
 
@@ -29,10 +29,10 @@
 
 @font-face { font-family: "Montserrat"; src: url("/fonts/Montserrat/montserrat-v14-latin-800.woff2") format("woff2"), url("/fonts/Montserrat/montserrat-v14-latin-800.woff") format("woff"), url("/fonts/Montserrat/montserrat-v14-latin-800.eot?") format("eot"), url("/fonts/Montserrat/montserrat-v14-latin-800.otf") format("opentype"); font-weight: 800; }
 
-@font-face { font-family: "Montserrat"; src: url("/fonts/Montserrat/montserrat-v14-latin-900.woff2") format("woff2"), url("/fonts/Montserrat/montserrat-v14-latin-900.woff") format("woff"), url("/fonts/Montserrat/montserrat-v14-latin-900.eot?") format("eot"), url("/fonts/Montserrat/montserrat-v14-latin-900.otf") format("opentype"); font-weight: 900; }
+@font-face { font-family: "Montserrat"; src: url("/fonts/Montserrat/montserrat-v14-latin-900.woff2") format("woff2"), url("/fonts/Montserrat/montserrat-v14-latin-900.woff") format("woff"), url("/fonts/Montserrat/montserrat-v14-latin-900.eot?") format("eot"), url("/fonts/Montserrat/montserrat-v14-latin-900.otf") format("opentype"); font-weight: 900; } */
 
 /*font : Montserrat : notokr - number*/
-@font-face { font-family: "Montserrat"; src: url("/fonts/Montserrat/montserrat-v14-latin-200.woff2") format("woff2"), url("/fonts/Montserrat/montserrat-v14-latin-200.woff") format("woff"), url("/fonts/Montserrat/montserrat-v14-latin-200.eot?") format("eot"), url("/fonts/Montserrat/montserrat-v14-latin-200.otf") format("opentype"); unicode-range: U+0030-0039; font-weight: 100; }
+/* @font-face { font-family: "Montserrat"; src: url("/fonts/Montserrat/montserrat-v14-latin-200.woff2") format("woff2"), url("/fonts/Montserrat/montserrat-v14-latin-200.woff") format("woff"), url("/fonts/Montserrat/montserrat-v14-latin-200.eot?") format("eot"), url("/fonts/Montserrat/montserrat-v14-latin-200.otf") format("opentype"); unicode-range: U+0030-0039; font-weight: 100; }
 
 @font-face { font-family: "Montserrat"; src: url("/fonts/Montserrat/montserrat-v14-latin-300.woff2") format("woff2"), url("/fonts/Montserrat/montserrat-v14-latin-300.woff") format("woff"), url("/fonts/Montserrat/montserrat-v14-latin-300.eot?") format("eot"), url("/fonts/Montserrat/montserrat-v14-latin-300.otf") format("opentype"); unicode-range: U+0030-0039; font-weight: 200; }
 
@@ -46,10 +46,10 @@
 
 @font-face { font-family: "Montserrat"; src: url("/fonts/Montserrat/montserrat-v14-latin-800.woff2") format("woff2"), url("/fonts/Montserrat/montserrat-v14-latin-800.woff") format("woff"), url("/fonts/Montserrat/montserrat-v14-latin-800.eot?") format("eot"), url("/fonts/Montserrat/montserrat-v14-latin-800.otf") format("opentype"); unicode-range: U+0030-0039; font-weight: 800; }
 
-@font-face { font-family: "Montserrat"; src: url("/fonts/Montserrat/montserrat-v14-latin-900.woff2") format("woff2"), url("/fonts/Montserrat/montserrat-v14-latin-900.woff") format("woff"), url("/fonts/Montserrat/montserrat-v14-latin-900.eot?") format("eot"), url("/fonts/Montserrat/montserrat-v14-latin-900.otf") format("opentype"); unicode-range: U+0030-0039; font-weight: 900; }
+@font-face { font-family: "Montserrat"; src: url("/fonts/Montserrat/montserrat-v14-latin-900.woff2") format("woff2"), url("/fonts/Montserrat/montserrat-v14-latin-900.woff") format("woff"), url("/fonts/Montserrat/montserrat-v14-latin-900.eot?") format("eot"), url("/fonts/Montserrat/montserrat-v14-latin-900.otf") format("opentype"); unicode-range: U+0030-0039; font-weight: 900; } */
 
 /*font : IropkeBatang*/
-@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');  */
 
 /*
 *********************
