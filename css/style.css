@@ -6,6 +6,13 @@ body{
   max-width: 1700px;
   margin: 0 auto;
 }
+br .pc{
+  display: none;
+}
+
+#footer .mobile-foot-logo{
+  display: none;
+}
 
 #go_to_top{
   position: fixed;
@@ -119,6 +126,7 @@ input[type=checked]#gnbcheck{ display: none; }
 #headerwrap .header{
   position: relative;
   height: 130px;
+  line-height: 100px;
   background: #fff;
   width: 100%;
   border-bottom: 1px solid #ddd;
@@ -141,7 +149,7 @@ input[type=checked]#gnbcheck{ display: none; }
   text-align: center;
   padding: 0 48px;
   width: 1300px;
-  margin-left: 250px;
+  margin-left: 330px;
 }
 
 #headerwrap .header .gnb .mainmenu > li{
