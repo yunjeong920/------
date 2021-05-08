@@ -841,13 +841,13 @@ input[type=checked]#gnbcheck{ display: none; }
   overflow: hidden;
 }
 
-#six .info-wrap .info-text{
+#six .info-wrap .info-alltext{
   margin-left: 50px;
   margin-right: 50px;
   height: 100%;
 }
 
-#six .info-wrap .info-text .fw-400{
+#six .info-wrap .info-alltext .fw-400{
   font-size: 22px;
 }
 
@@ -875,6 +875,10 @@ input[type=checked]#gnbcheck{ display: none; }
 
 #six .info-wrap .info-icon2{
   padding-top: 20px;
+}
+
+#six .info-wrap .info-text{
+  padding-left: 50px;
 }
 
 /* 푸터영역 */
