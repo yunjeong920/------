@@ -44,11 +44,6 @@ $(function(){
         slidesPerGroup: 2,
         spaceBetween: 20,
       },
-      770: {
-        slidesPerView: 2,
-        slidesPerGroup: 2,
-        spaceBetween: 20,
-      },
       500: {
         slidesPerView: 1,
         slidesPerGroup: 1,
