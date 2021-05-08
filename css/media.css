@@ -2,6 +2,7 @@
 
 @media screen and ( max-width: 1400px ) {
   .mainlogo{ padding-left: 30px;}
+  input[type=checked]#gnbcheck{ display: none; }
   input[type=checkbox]#gnbcheck:checked ~ .header .gnb{ left: 0;}
   #mobile_close_btn{ display: block; }
   #gnbbtn{ display: block;}
@@ -110,64 +111,73 @@
     width: 100%;
     margin: 0 auto;
   }
-  #second{ width: 100%; max-height: 1200px; }
-  #second .second-menu{
-    /* overflow: hidden; */
-    position: relative;
+  #second{
     width: 100%;
+    max-height: 2000px;
     margin: 0 auto;
-    display: inline-block;
+  }
+  #second .second-info{
+    margin-bottom: 100px;
+  }
+  #second .second-menu{
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
   }
   #second .second-menu .img1{
+    margin: 0 auto;
+    display: block;
     position: relative;
-    display: inline-block;
-    width: 100%;
-    max-width: 410px;
-    max-width: 1200px;
-    left: 10%;
-    margin-left: 0;
-    margin-top: 100px;
-    margin-right: 40px;
+    height: 400px;
+    width: auto;
+    background-position: center;
+    margin-bottom: 10px;
   }
   #second .second-menu .img2{
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    margin-top: 100px;
-    left: 55%;
-    bottom: 600px;
+    margin: 0 auto;
+    height: 400px;
+    width: auto;
+    background-position: center;
+    margin-bottom: 10px;
   }
   #second .second-menu .img3{
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    bottom: 590px;
-    left: 10%;
+    margin: 0 auto;
+    height: 400px;
+    width: auto;
+    background-position: center;
+    margin-bottom: 10px;
   }
   #second .second-menu .img4{
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    bottom: 1090px;
-    left: 55%;
+    margin: 0 auto;
+    height: 400px;
+    width: auto;
+    background-position: center;
+    margin-bottom: 10px;
   }
   #second .second-menu .menu1{
-    margin: 30px;
+    margin: 0 auto;
     width: 100%;
     max-width: 360px;
   }
   #second .second-menu .menu1 .menu-top{
     display: block;
     margin-right: 20px;
+    padding-top: 30px;
+  }
+  #second .second-menu .menu1 .menu-top .menu-top01{
+    font-size: 26px;
   }
   #second .second-menu .menu1 .menu-top i{
     position: absolute;
-    top: 5px;
-    left: 95%;
+    top: 30px;
+    left: 93%;
   }
   #second .second-menu .menu1 .menu-btn span{
     width: 100%;
     max-width: 380px;
+    margin: 0 auto;
   }
   #third .third-info{
     padding-right: 40px;
@@ -226,7 +236,7 @@
   #first .first-sec{
     padding-right: 30px;
   }
-  #second .second-menu .img1{
+  /* #second .second-menu .img1{
     left: 2%;
   }
   #second .second-menu .img2{
@@ -237,7 +247,7 @@
   }
   #second .second-menu .img4{
     left: 55%;
-  }
+  } */
   #third .item-wrap .item .item1-txt{
     padding-bottom: 78px;
   }
