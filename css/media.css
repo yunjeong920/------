@@ -567,6 +567,216 @@
   }
   #first p:first-child{
     font-size: 14px;
+    margin-left: 0;
+  }
+  #first .first-sec h2{
+    font-size: 36px;
+    margin-left: 0;
+  }
+  #first .first-sec .first-info p:nth-child(3){
+    font-size: 12px;
+    padding: 0;
+  }
+  #first .first-sec .first-info p:nth-child(4){
+    font-size: 10px;
+    padding: 0;
+  }
+  #first .first-sec{
+    padding: 0;
+  }
+  #second{
+    min-height: 1000px;
+  }
+  #second p:first-child{
+    font-size: 14px;
+  }
+  #second .second-info h2{
+    font-size: 36px;
+  }
+  #second .second-menu .menu1 .menu-top .menu-top01{
+    font-size: 18px;
+  }
+  #second .second-menu .menu1 .menu-btn .btn-1 a{
+    font-size: 12px;
+  }
+  #second .second-menu .menu1 .menu-btn .btn-2 a{
+    font-size: 12px;
+  }
+  #second .second-menu .menu1 .menu-btn p{
+    padding: 0;
+  }
+  #second .second-menu .menu1 .menu-btn span{
+    padding-left: 0;
+  }
+  #second .second-menu .menu1 .menu-top i{
+    left: 88%;
+  }
+  #second .second-menu .img1{
+    width: auto;
+    height: 250px;
+  }
+  #second .second-menu .img2{
+    width: auto;
+    height: 250px;
+  }
+  #second .second-menu .img3{
+    width: auto;
+    height: 250px;
+  }
+  #second .second-menu .img4{
+    width: auto;
+    height: 250px;
+  }
+  #third{
+    width: 70%;
+    margin: 0 auto;
+  }
+  #third .third-info p:first-child{
+    font-size: 14px;
+  }
+  #third .third-info h2{
+    font-size: 36px;
+  }
+  #third .third-info{
+    margin-left: 0;
+  }
+  #third .item-wrap .item .item1 img{
+    width: 100%;
+  }
+  #third .item-wrap .item .item1{
+    width: 300px;
+  }
+  #third .item-wrap{
+    margin: 0;
+  }
+  #third .item-wrap .item .item1-txt{
+    width: 300px;
+    padding-left: 10px;
+  }
+  #third .item-wrap .item .item1-txt p:first-child{
+    font-size: 16px;
+  }
+  #third .item-wrap .item .item1-txt p:nth-child(2){
+    font-size: 24px;
+  }
+  #third .item-wrap .item .item1-txt ul li a{
+    font-size: 12px;
+  }
+  #third .item-wrap .item2 .item2-img img{
+    width: 100%;
+    right: 10%;
+  }
+  #third .item-wrap .item2{
+    display: flex;
+    width: 300px;
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  #third .item-wrap .item2 .item2-img{
+    width: 320px;
+  }
+  #third .item-wrap .item2 .item2-txt{
+    width: 320px;
+  }
+  #third .item-wrap .item2 .item2-txt ul li::before{
+    left: 0;
+  }
+  #third .item-wrap .item2 .item2-txt{
+    text-align: left;
+  }
+  #third .item-wrap .item2 .item2-txt p:first-child{
+    font-size: 16px;
+  }
+  #third .item-wrap .item2 .item2-txt p:nth-child(2){
+    font-size: 24px;
+  }
+  #third .item-wrap .item2 .item2-txt ul li a{
+    font-size: 12px;
+    padding-left: 20px;
+  }
+  #third .item-wrap .item2 .item2-txt{
+    padding-top: 20px;
+    margin-left: 12px;
+  }
+  #fourth .fourth-info{
+    margin-top: 50px;
+  }
+  #six .info-wrap .info-alltext{
+    width: 300px;
+    margin: 0 auto;
+  }
+  #six .info-wrap .info-alltext .fw-400{
+    font-size: 12px;
+  }
+  #six .info-wrap .info-alltext .fs-50{
+    font-size: 26px;
+  }
+  #six .info-wrap .info-icon .info-text{
+    font-size: 12px;
+    padding-left: 0;
+  }
+  #six .info-wrap .info-icon img{
+    display: block;
+  }
+  #six .info-wrap .info-icon2 img{
+    display: block;
+  }
+  #six .info-wrap .info-alltext span{
+    font-size: 12px;
+  }
+  #six .info-wrap .info-icon2{
+    width: 250px;
+  }
+  #six .info-wrap .info-text{
+  }
+  #six .info-wrap .info-icon{
+    padding-right: 50px;
+  }
+  #footer .footer-wrap{
+    flex-direction: column;
+  }
+  #footer .footer-wrap .mobile-foot-logo img{
+    display: none;
+  }
+  #footer .footer-wrap .footer-info .f-txt1{
+    margin-top: 30px;
+  }
+}
+
+@media screen and ( max-width: 480px ) {
+  #all-wrap{ width: 100%; margin: 0 auto;}
+  #headerwrap .header .mainlogo img{
+    width: 130px;
+    height: auto;
+  }
+  #headerwrap .header{
+    height: 90px;
+  }
+  #gnbbtn{
+    top: 40px;
+  }
+  #main-content{ height: 500px;}
+  .pt-50{
+    font-size: 36px;
+  }
+  .m-fs-26{
+    font-size: 14px;
+  }
+  .mt-10{
+    font-size: 12px;
+  }
+  .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+    top: 59%;
+  }
+  .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+    top: 59%;
+  }
+  #headerwrap .header .gnb ul.mainmenu{
+    padding-top: 50px;
+  }
+  #first p:first-child{
+    font-size: 14px;
   }
   #first .first-sec h2{
     font-size: 36px;
@@ -756,7 +966,7 @@
     margin-bottom: 15px
   }
   #headerwrap .header .gnb ul.mainmenu{
-    padding-top: 70px;
+    padding-top: 0px;
   }
   #gnbbtn{
     top: 35%;
