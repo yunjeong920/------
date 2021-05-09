@@ -321,8 +321,23 @@
     margin: 0 auto;
     text-align: center;
   }
+  #first .first-sec{
+    padding-right: 0;
+  }
   #first{
     margin-bottom: 350px;
+  }
+  #first p:first-child{
+    margin-left: 0;
+  }
+  #first .first-sec h2{
+    margin-left: 0;
+  }
+  #first .first-sec .first-info p:nth-child(3){
+    padding-left: 0;
+  }
+  #first .first-sec .first-info p:nth-child(4){
+    padding-left: 0;
   }
   #first .first-img{
     position: relative;
@@ -390,7 +405,6 @@
     width: 100%;
     text-align: center;
     margin-top: 150px;
-    margin-left: 20px;
     padding: 0;
   }
   #third .item-wrap{
@@ -404,6 +418,8 @@
   #third .item-wrap .item .item1{
     width: 100%;
     position: relative;
+    align-items: center;
+    justify-content: center;
   }
   #third .item-wrap .item .item1-txt{
     position: relative;
