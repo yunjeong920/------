@@ -537,11 +537,17 @@
   }
 }
 
-@media screen and ( max-width: 480px ) {
+@media screen and ( max-width: 500px ) {
   #all-wrap{ width: 100%; margin: 0 auto;}
   #headerwrap .header .mainlogo img{
-    width: 140px;
+    width: 130px;
     height: auto;
+  }
+  #headerwrap .header{
+    height: 90px;
+  }
+  #gnbbtn{
+    top: 40px;
   }
   #main-content{ height: 500px;}
   .pt-50{
@@ -567,9 +573,11 @@
   }
   #first .first-sec .first-info p:nth-child(3){
     font-size: 12px;
+    padding: 0;
   }
   #first .first-sec .first-info p:nth-child(4){
     font-size: 10px;
+    padding: 0;
   }
   #first .first-sec{
     padding: 0;
@@ -641,6 +649,7 @@
   }
   #third .item-wrap .item .item1-txt{
     width: 300px;
+    padding-left: 10px;
   }
   #third .item-wrap .item .item1-txt p:first-child{
     font-size: 16px;
@@ -686,23 +695,181 @@
   }
   #third .item-wrap .item2 .item2-txt{
     padding-top: 20px;
+    margin-left: 12px;
   }
   #fourth .fourth-info{
     margin-top: 50px;
+  }
+  #six .info-wrap .info-alltext{
+    width: 300px;
+    margin: 0 auto;
   }
   #six .info-wrap .info-alltext .fw-400{
     font-size: 12px;
   }
   #six .info-wrap .info-alltext .fs-50{
-    font-size: 28px;
+    font-size: 26px;
   }
   #six .info-wrap .info-icon .info-text{
     font-size: 12px;
+    padding-left: 0;
+  }
+  #six .info-wrap .info-icon img{
+    display: block;
+  }
+  #six .info-wrap .info-icon2 img{
+    display: block;
   }
   #six .info-wrap .info-alltext span{
     font-size: 12px;
   }
   #six .info-wrap .info-icon2{
-    width: 200px;
+    width: 250px;
+  }
+  #six .info-wrap .info-text{
+  }
+  #six .info-wrap .info-icon{
+    padding-right: 50px;
+  }
+  #footer .footer-wrap{
+    flex-direction: column;
+  }
+  #footer .footer-wrap .mobile-foot-logo img{
+    display: none;
+  }
+  #footer .footer-wrap .footer-info .f-txt1{
+    margin-top: 30px;
+  }
+}
+
+@media screen and ( max-width: 375px ) {
+  #all-wrap{ width: 100%; margin: 0 auto;}
+  #main-content{ height: 400px;}
+  .pt-50{ font-size: 30px;}
+  .m-fs-26{ font-size:  12px;}
+  #main-content .maintext{
+    padding-top: 130px;
+  }
+  #headerwrap .header .mainlogo img{
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px
+  }
+  #headerwrap .header .gnb ul.mainmenu{
+    padding-top: 70px;
+  }
+  #gnbbtn{
+    top: 35%;
+  }
+  #headerwrap .header .gnb .mainmenu > li > a{
+    font-size: 16px;
+  }
+  #first .first-sec h2{
+    margin-left: 0;
+  }
+  #first p:first-child{
+    margin-left: 0;
+  }
+  #second .second-info{
+    margin-bottom: 80px;
+  }
+  #second .second-menu .img1{
+    height: 180px;
+  }
+  #second .second-menu .img2{
+    height: 180px;
+  }
+  #second .second-menu .img3{
+    height: 180px;
+  }
+  #second .second-menu .img4{
+    height: 180px;
+  }
+  #second .second-menu .menu1 .menu-btn p{
+    display: none;
+  }
+  #third .third-info{
+    margin-top: 50px;
+  }
+  #third .item-wrap{
+    min-height: 1500px;
+  }
+  #third .item-wrap .item{
+    width: 300px;
+    margin: 0 auto;
+  }
+  #third .item-wrap .item .item1 img{
+    height: 300px;
+    width: auto;
+  }
+  #third .item-wrap .item .item1{
+    align-items: center;
+    justify-content: flex-start;
+  }
+  #third .item-wrap .item .item1-txt{
+    top: 0;
+  }
+  #third .item-wrap .item2 .item2-img{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    left: 0;
+  }
+  #third .item-wrap .item2 .item2-img img{
+    height: 300px;
+    width: auto;
+    left: 0;
+    margin: 0;
+  }
+  #third .item-wrap .item2{
+    display: block;
+  }
+  #third .item-wrap .item2 .item2-txt{
+    margin-top: 0;
+    padding: 0;
+    padding-top: 50px;
+    margin-left: 17px;
+    height: 300px;
+  }
+  #fourth{
+    height: 400px;
+  }
+  #six .info-wrap .info-alltext .fs-50{
+    font-size: 20px;
+  }
+  #six .info-wrap .info-alltext .fw-400{
+    font-size: 10px;
+  }
+  #six .info-wrap .info-alltext p{
+    font-size: 10px;
+  }
+  #six .info-wrap .info-icon img{
+    margin-left: 20px;
+  }
+  #six .info-wrap .info-icon2 img{
+    margin-left: 20px;
+  }
+  #six .info-wrap .info-text{
+    padding-left: 90px;
+    width: 300px;
+  }
+  #six .info-wrap .info-icon .info-text{
+    padding-left: 90px;
+  }
+  #six .info-wrap .info-icon{
+    padding-right: 0;
+  }
+  #footer .footer-wrap .footimg img{
+    width: 150px;
+    height: auto;
+  }
+  #footer .footer-wrap .footer-info .f-txt1{
+    font-size: 10px;
+  }
+  #footer .footer-wrap .footer-info .f-txt2{
+    font-size: 10px;
+  }
+  #footer{
+    padding: 30px;
   }
 }
