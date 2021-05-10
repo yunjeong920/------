@@ -11,6 +11,13 @@ br .pc{
   display: none;
 }
 
+.controlInWeb {
+    -moz-border-radius: 2em;	/* 파이어폭스 */
+    -ms-border-radius: 2em;		/* IE */
+    -o-border-radius: 2em;		/* 오페라 */
+    -webkit-border-radius: 2em;		/* 사파리, 크롬 */
+    }
+
 #footer .mobile-foot-logo{
   display: none;
 }
@@ -339,7 +346,11 @@ input{ display: none ;}
 }
 
 #first .first-sec{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   justify-content: space-around;
   width: 100%;
@@ -422,9 +433,17 @@ input{ display: none ;}
   height: auto;
   margin-top: 100px;
   margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-lines: multiple;
+  -ms-flex-wrap: wrap;
   flex-wrap: nowrap;
 }
 
@@ -518,8 +537,14 @@ input{ display: none ;}
 
 #second .second-menu .menu1 .menu-btn span{
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
   align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   color: white;
   font-size: 20px;
@@ -573,7 +598,11 @@ input{ display: none ;}
 #third .item-wrap{
   position: relative;
   width: 100%;
+  display: -webkit-box;
   display: flex;
+  display: -ms-flexbox;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-left: 10px;
   padding-right: 10px;
@@ -726,8 +755,14 @@ input{ display: none ;}
 #fourth .swiper-slide{
   text-align: center;
   background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -799,20 +834,36 @@ input{ display: none ;}
 }
 
 #five .insta-wrap .instaimg:first-child{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 #five .insta-wrap2 .instaimg:first-child{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 #five .insta-wrap{
   margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   justify-content: space-around;
   align-content: center;
@@ -821,7 +872,11 @@ input{ display: none ;}
 }
 
 #five .insta-wrap2{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   align-content: center;
   justify-content: space-around;
@@ -839,14 +894,26 @@ input{ display: none ;}
 
 #six .info-wrap{
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 #six .info-wrap .info-img{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   align-items: flex-end;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -876,11 +943,15 @@ input{ display: none ;}
 
 #six .info-wrap .info-icon img{
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 #six .info-wrap .info-icon2 img{
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -907,7 +978,11 @@ input{ display: none ;}
 
 #footer .footer-wrap{
   /* position: relative; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start;
   justify-content: space-around;
 }

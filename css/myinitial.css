@@ -1,4 +1,107 @@
 @charset "UTF-8";
+body{ font-family: 'Montserrat', 'Noto Sans Korean', 'Montaga', sans-serif; color: #666666; }
+body{ color: #666666; }
+*{ margin: 0; padding: 0; }
+ul,ol{ list-style: none; }
+a{ text-decoration: none; color: #666666; }
+
+html{
+	color:#000;
+	background:#FFF;
+}
+
+/* 플렉스 컨테이너에 적용. 플렉스 컨테이너 생성
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+
+플렉스 아이템에 적용. 확장 지수 설정.
+-webkit-box-flex: 1;
+-ms-flex: 1;
+flex-grow: 1;
+
+플렉스 컨테이너에 적용. 주축 row 설정.
+-webkit-box-orient: horizontal;
+-ms-flex-direction: row;
+flex-direction: row;
+
+플렉스 컨테이너에 적용. 주축 column 설정.
+-webkit-box-orient: vertical;
+-ms-flex-direction: column;
+flex-direction: column;
+
+플렉스 컨테이너에 적용. 주축 row-reverse 설정.
+-webkit-box-orient: horizontal;
+-webkit-box-direction: reverse;
+-ms-flex-direction: row-reverse;
+flex-direction: row-reverse;
+
+플렉스 컨테이너에 적용. 주축 column-reverse 설정.
+-webkit-box-orient: vertical;
+-webkit-box-direction: reverse;
+-ms-flex-direction: column-reverse;
+flex-direction: column-reverse;
+
+플렉스 컨테이너에 적용. 감싸기(줄바꿈) 금지 설정.
+-webkit-box-lines: single;
+-ms-flex-wrap: nowrap;
+flex-wrap: nowrap;
+
+플렉스 컨테이너에 적용. 감싸기(줄바꿈) 설정. 확인 결과 안드로이드 2.1~4.3 아래 속성 지원 안 함.
+<del>-webkit-box-lines: multiple;</del>
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+
+플렉스 아이템에 적용. 아이템 정렬 순서 설정. 확인 결과 안드로이드 2.1~4.3 아래 속성 지원 안 함.
+<del>-webkit-box-ordinal-group: 1;</del>
+-ms-flex-order: 1;
+order: 1;
+
+플렉스 컨테이너에 적용. 아이템 주축 start 정렬.
+-webkit-box-pack: start;
+-ms-flex-pack: start;
+justify-content: flex-start;
+
+플렉스 컨테이너에 적용. 아이템 주축 end 정렬.
+-webkit-box-pack: end;
+-ms-flex-pack: end;
+justify-content: flex-end;
+
+플렉스 컨테이너에 적용. 아이템 주축 center 정렬.
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+
+플렉스 컨테이너에 적용. 아이템 주축 space-between 정렬.
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  플렉스 컨테이너에 적용. 아이템 교차축 start 정렬.
+-webkit-box-align: start;
+-ms-flex-align: start;
+align-items: flex-start;
+
+플렉스 컨테이너에 적용. 아이템 교차축 end 정렬.
+-webkit-box-align: end;
+-ms-flex-align: end;
+align-items: flex-end;
+
+플렉스 컨테이너에 적용. 아이템 교차축 center 정렬.
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+
+플렉스 컨테이너에 적용. 아이템 교차축 stretch 정렬.
+-webkit-box-align: stretch;
+-ms-flex-align: stretch;
+align-items: stretch;
+
+플렉스 컨테이너에 적용. 아이템 교차축 baseline 정렬.
+-webkit-box-align: baseline;
+-ms-flex-align: baseline;
+align-items: baseline; */
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @font-face {
@@ -49,16 +152,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-body{ font-family: 'Montserrat', 'Noto Sans Korean', 'Montaga', sans-serif; color: #666666; }
-body{ color: #666666; }
-*{ margin: 0; padding: 0; }
-ul,ol{ list-style: none; }
-a{ text-decoration: none; color: #666666; }
 
-html{
-	color:#000;
-	background:#FFF;
-}
 /*
 	TODO remove settings on BODY since we can't namespace it.
 */
@@ -66,109 +160,27 @@ html{
 	TODO test putting a class on HEAD.
 		- Fails on FF.
 */
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code,
-form,
-fieldset,
-legend,
-input,
-textarea,
-p,
-blockquote,
-th,
-td {
-	margin:0;
-	padding:0;
-}
-table {
-	border-collapse:collapse;
-	border-spacing:0;
-}
-fieldset,
-img {
-	border:0;
-}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,
+th,td {margin:0;padding:0;}table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0;}
 /*
 	TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
 */
-address,
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
 caption,
-cite,
-code,
-dfn,
-em,
-strong,
-th,
-var {
-	font-style:normal;
-	font-weight:normal;
-}
-
-ol,
-ul {
-	list-style:none;
-}
-
-caption,
-th {
-	text-align:left;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-size:100%;
-	font-weight:normal;
-}
-q:before,
-q:after {
-	content:'';
-}
-abbr,
-acronym {
-	border:0;
-	font-variant:normal;
-}
+th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+q:before,q:after {content:'';}
+abbr,acronym {border:0;font-variant:normal;}
 /* to preserve line-height and selector appearance */
-sup {
-	vertical-align:text-top;
-}
-sub {
-	vertical-align:text-bottom;
-}
-input,
-textarea,
-select {
-	font-family:inherit;
-	font-size:inherit;
-	font-weight:inherit;
-}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select {font-family:inherit;font-size:inherit;font-weight:inherit;}
 /*to enable resizing for IE*/
-input,
-textarea,
-select {
-	*font-size:100%;
-}
+input,textarea,select {*font-size:100%;}
 /*because legend doesn't inherit in IE */
-legend {
-	color:#000;
-}
+legend {color:#000;}
 /* YUI CSS Detection Stamp */
 #yui3-css-stamp.cssreset { display: none; }
 
