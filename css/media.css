@@ -36,9 +36,11 @@
     padding-top: 50px;
   }
   #second .second-menu .menu1 .menu-top{ margin-right: 0px; }
-  #second .second-menu .menu1 .menu-top .menu-top01{ font-size: 20px;}
+  #second .second-menu .menu1 .menu-top .menu-top01{ font-size: 22px;}
   #second .second-menu .menu1 .menu-btn span{ font-size: 15px;}
   #second .second-menu .menu1 .menu-btn p{ font-size: 12px; }
+  #second .second-menu .menu1 .menu-btn .btn-1 a{ font-size: 16px;}
+  #second .second-menu .menu1 .menu-btn .btn-2 a{ font-size: 16px;}
   #second .second-menu .img4{
     margin-right: 13px;
   }
@@ -48,7 +50,7 @@
     display: block;
   }
   #third .third-info{
-    padding-right: 30px;
+    padding-right: 50px;
   }
   #third .item-wrap .item .item1{
     display: flex;
@@ -71,8 +73,8 @@
   }
   #third .item-wrap .item2{
     display: flex;
-    /* align-items: flex-start;
-    justify-content: flex-start; */
+    align-items: flex-start;
+    justify-content: flex-start;
     width: 100%;
     height: 500px;
   }
@@ -254,6 +256,9 @@
   #third .item-wrap .item2 .item2-img{
     top: 33%;
   }
+  #fourth .fourth-info{
+    margin-top: 100px;
+  }
   #fourth{
     height: 550px;
   }
@@ -408,18 +413,25 @@
     padding: 0;
   }
   #third .item-wrap{
-    position: relative;
-    width: 50%;
-    min-height: 1600px;
-    display: block;
     margin-top: 100px;
-    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+   #third .item-wrap .item{
+    width: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   #third .item-wrap .item .item1{
-    width: 100%;
-    position: relative;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    width: 400px;
+    height: auto;
   }
   #third .item-wrap .item .item1-txt{
     position: relative;
@@ -447,52 +459,56 @@
   }
   #third .item-wrap .item2 .item2-txt ul li a{
     font-size: 14px;
-  }
-  #third .item-wrap .item2 .item2-txt{
-    position: absolute;
-    display: block;
-    width: 100%;
-    margin-top: 160px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 1100px;
-    margin-left: 40px;
-    padding-top: 30px;
+    margin-left: 20px;
   }
   #third .item-wrap .item .item1 img{
-    width: auto;
-    display: block;
-    position: absolute;
-    height: 400px;
-    z-index: 110;
-    background-position: center;
-  }
-  #third .item-wrap .item2 .item2-img img{
-    width: auto;
-    display: block;
-    position: absolute;
-    height: 410px;
-    z-index: 110;
-    background-position: center;
-    margin-top: 50px;
-  }
-  #third .item-wrap .item2 .item2-img{
-    width: 100%;
+    width: 400px;
     display: block;
     position: relative;
-    left: 30px;
+    height: auto;
+    z-index: 110;
+    background-position: center;
   }
   #third .item-wrap .item2{
-    display: block;
+    margin-top: 230px;
     width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  #third .item-wrap .item2 .item2-txt{
+    position: relative;
+    display: block;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    top: 0;
+    margin-left: 70px;
+  }
+  #third .item-wrap .item2 .item2-txt ul li::before{
+    left: 0;
+  }
+  #third .item-wrap .item2 .item2-img{
+    display: block;
+    width: 400px;
     height: auto;
+    position: initial;
+  }
+  #third .item-wrap .item2 .item2-img img{
+    width: 400px;
+    display: block;
+    position: relative;
+    z-index: 110;
+    background-position: center;
   }
   #fourth{
-    height: 500px;
+    height: 700px;
   }
   #fourth .fourth-info{
     margin-top: 150px;
+    padding-top: 180px;
   }
   #fourth .swiper-slide h3{
     font-size: 22px;
@@ -553,213 +569,6 @@
   }
 }
 
-@media screen and ( max-width: 500px ) {
-  #all-wrap{ width: 100%; margin: 0 auto;}
-  #headerwrap .header .mainlogo img{
-    width: 130px;
-    height: auto;
-  }
-  #headerwrap .header{
-    height: 90px;
-  }
-  #gnbbtn{
-    top: 40px;
-  }
-  #main-content{ height: 500px;}
-  .pt-50{
-    font-size: 36px;
-  }
-  .m-fs-26{
-    font-size: 14px;
-  }
-  .mt-10{
-    font-size: 12px;
-  }
-  .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
-    top: 59%;
-  }
-  .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
-    top: 59%;
-  }
-  #first p:first-child{
-    font-size: 14px;
-    margin-left: 0;
-  }
-  #first .first-sec h2{
-    font-size: 36px;
-    margin-left: 0;
-  }
-  #first .first-sec .first-info p:nth-child(3){
-    font-size: 12px;
-    padding: 0;
-  }
-  #first .first-sec .first-info p:nth-child(4){
-    font-size: 10px;
-    padding: 0;
-  }
-  #first .first-sec{
-    padding: 0;
-  }
-  #second{
-    min-height: 1000px;
-  }
-  #second p:first-child{
-    font-size: 14px;
-  }
-  #second .second-info h2{
-    font-size: 36px;
-  }
-  #second .second-menu .menu1 .menu-top .menu-top01{
-    font-size: 18px;
-  }
-  #second .second-menu .menu1 .menu-btn .btn-1 a{
-    font-size: 12px;
-  }
-  #second .second-menu .menu1 .menu-btn .btn-2 a{
-    font-size: 12px;
-  }
-  #second .second-menu .menu1 .menu-btn p{
-    padding: 0;
-  }
-  #second .second-menu .menu1 .menu-btn span{
-    padding-left: 0;
-  }
-  #second .second-menu .menu1 .menu-top i{
-    left: 88%;
-  }
-  #second .second-menu .img1{
-    width: auto;
-    height: 250px;
-  }
-  #second .second-menu .img2{
-    width: auto;
-    height: 250px;
-  }
-  #second .second-menu .img3{
-    width: auto;
-    height: 250px;
-  }
-  #second .second-menu .img4{
-    width: auto;
-    height: 250px;
-  }
-  #third{
-    width: 70%;
-    margin: 0 auto;
-  }
-  #third .third-info p:first-child{
-    font-size: 14px;
-  }
-  #third .third-info h2{
-    font-size: 36px;
-  }
-  #third .third-info{
-    margin-left: 0;
-  }
-  #third .item-wrap .item .item1 img{
-    width: 100%;
-  }
-  #third .item-wrap .item .item1{
-    width: 300px;
-  }
-  #third .item-wrap{
-    margin: 0;
-  }
-  #third .item-wrap .item .item1-txt{
-    width: 300px;
-    padding-left: 10px;
-  }
-  #third .item-wrap .item .item1-txt p:first-child{
-    font-size: 16px;
-  }
-  #third .item-wrap .item .item1-txt p:nth-child(2){
-    font-size: 24px;
-  }
-  #third .item-wrap .item .item1-txt ul li a{
-    font-size: 12px;
-  }
-  #third .item-wrap .item2 .item2-img img{
-    width: 100%;
-    right: 10%;
-  }
-  #third .item-wrap .item2{
-    display: flex;
-    width: 300px;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  #third .item-wrap .item2 .item2-img{
-    width: 320px;
-  }
-  #third .item-wrap .item2 .item2-txt{
-    width: 320px;
-  }
-  #third .item-wrap .item2 .item2-txt ul li::before{
-    left: 0;
-  }
-  #third .item-wrap .item2 .item2-txt{
-    text-align: left;
-  }
-  #third .item-wrap .item2 .item2-txt p:first-child{
-    font-size: 16px;
-  }
-  #third .item-wrap .item2 .item2-txt p:nth-child(2){
-    font-size: 24px;
-  }
-  #third .item-wrap .item2 .item2-txt ul li a{
-    font-size: 12px;
-    padding-left: 20px;
-  }
-  #third .item-wrap .item2 .item2-txt{
-    padding-top: 20px;
-    margin-left: 12px;
-  }
-  #fourth .fourth-info{
-    margin-top: 50px;
-  }
-  #six .info-wrap .info-alltext{
-    width: 300px;
-    margin: 0 auto;
-  }
-  #six .info-wrap .info-alltext .fw-400{
-    font-size: 12px;
-  }
-  #six .info-wrap .info-alltext .fs-50{
-    font-size: 26px;
-  }
-  #six .info-wrap .info-icon .info-text{
-    font-size: 12px;
-    padding-left: 0;
-  }
-  #six .info-wrap .info-icon img{
-    display: block;
-  }
-  #six .info-wrap .info-icon2 img{
-    display: block;
-  }
-  #six .info-wrap .info-alltext span{
-    font-size: 12px;
-  }
-  #six .info-wrap .info-icon2{
-    width: 250px;
-  }
-  #six .info-wrap .info-text{
-  }
-  #six .info-wrap .info-icon{
-    padding-right: 50px;
-  }
-  #footer .footer-wrap{
-    flex-direction: column;
-  }
-  #footer .footer-wrap .mobile-foot-logo img{
-    display: none;
-  }
-  #footer .footer-wrap .footer-info .f-txt1{
-    margin-top: 30px;
-  }
-}
-
 @media screen and ( max-width: 480px ) {
   #all-wrap{ width: 100%; margin: 0 auto;}
   #headerwrap .header .mainlogo img{
@@ -788,14 +597,13 @@
   .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
     top: 59%;
   }
-  #headerwrap .header .gnb ul.mainmenu{
-    padding-top: 50px;
-  }
   #first p:first-child{
     font-size: 14px;
+    margin-left: 0;
   }
   #first .first-sec h2{
     font-size: 36px;
+    margin-left: 0;
   }
   #first .first-sec .first-info p:nth-child(3){
     font-size: 12px;
@@ -818,7 +626,7 @@
     font-size: 36px;
   }
   #second .second-menu .menu1 .menu-top .menu-top01{
-    font-size: 18px;
+    font-size: 16px;
   }
   #second .second-menu .menu1 .menu-btn .btn-1 a{
     font-size: 12px;
@@ -851,10 +659,6 @@
     width: auto;
     height: 250px;
   }
-  #third{
-    width: 70%;
-    margin: 0 auto;
-  }
   #third .third-info p:first-child{
     font-size: 14px;
   }
@@ -864,18 +668,27 @@
   #third .third-info{
     margin-left: 0;
   }
-  #third .item-wrap .item .item1 img{
-    width: 100%;
-  }
   #third .item-wrap .item .item1{
     width: 300px;
+    height: auto;
   }
-  #third .item-wrap{
-    margin: 0;
+  #third .item-wrap .item2{
+    margin-top: 80px;
   }
-  #third .item-wrap .item .item1-txt{
+  #third .item-wrap .item2 .item2-img{
     width: 300px;
-    padding-left: 10px;
+    height: auto;
+  }
+  #third .item-wrap .item2 .item2-img img{
+    width: 300px;
+    height: 380px;
+    position: relative;
+  }
+  #third .item-wrap .item2 .item2-txt{
+    position: relative;
+    width: 300px;
+    padding: 0;
+    margin-top: 55px;
   }
   #third .item-wrap .item .item1-txt p:first-child{
     font-size: 16px;
@@ -886,29 +699,6 @@
   #third .item-wrap .item .item1-txt ul li a{
     font-size: 12px;
   }
-  #third .item-wrap .item2 .item2-img img{
-    width: 100%;
-    right: 10%;
-  }
-  #third .item-wrap .item2{
-    display: flex;
-    width: 300px;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  #third .item-wrap .item2 .item2-img{
-    width: 320px;
-  }
-  #third .item-wrap .item2 .item2-txt{
-    width: 320px;
-  }
-  #third .item-wrap .item2 .item2-txt ul li::before{
-    left: 0;
-  }
-  #third .item-wrap .item2 .item2-txt{
-    text-align: left;
-  }
   #third .item-wrap .item2 .item2-txt p:first-child{
     font-size: 16px;
   }
@@ -917,14 +707,12 @@
   }
   #third .item-wrap .item2 .item2-txt ul li a{
     font-size: 12px;
-    padding-left: 20px;
-  }
-  #third .item-wrap .item2 .item2-txt{
-    padding-top: 20px;
-    margin-left: 12px;
   }
   #fourth .fourth-info{
     margin-top: 50px;
+  }
+  #fourth{
+    height: 700px;
   }
   #six .info-wrap .info-alltext{
     width: 300px;
@@ -1017,48 +805,17 @@
   #third .third-info{
     margin-top: 50px;
   }
-  #third .item-wrap{
-    min-height: 1500px;
-  }
-  #third .item-wrap .item{
-    width: 300px;
-    margin: 0 auto;
-  }
-  #third .item-wrap .item .item1 img{
-    height: 300px;
-    width: auto;
-  }
   #third .item-wrap .item .item1{
-    align-items: center;
-    justify-content: flex-start;
-  }
-  #third .item-wrap .item .item1-txt{
-    top: 0;
-  }
-  #third .item-wrap .item2 .item2-img{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    left: 0;
+    width: 250px;
+    height: auto;
   }
   #third .item-wrap .item2 .item2-img img{
-    height: 300px;
-    width: auto;
-    left: 0;
-    margin: 0;
-  }
-  #third .item-wrap .item2{
-    display: block;
-  }
-  #third .item-wrap .item2 .item2-txt{
-    margin-top: 0;
-    padding: 0;
-    padding-top: 50px;
-    margin-left: 17px;
-    height: 300px;
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
   }
   #fourth{
-    height: 400px;
+    height: 600px;
   }
   #six .info-wrap .info-alltext .fs-50{
     font-size: 20px;
