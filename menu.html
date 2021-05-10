@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TITLE</title>
+<meta name="description" content="레스토랑 오늘">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/myinitial.css">
+<link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="./css/swiper.min.css">
+<link rel="stylesheet" href="./css/menustyle.css">
+<link rel="stylesheet" href="./css/menumedia.css">
+<script type="text/javascript" src="./js/jquery_3.5.1.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+<script type="text/javascript" src="./js/swiper.min.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+<script type="text/javascript" src="./js/tab.js"></script>
+
+
+<!--[if lt IE 9]>
+<script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+  <div id="all-wrap">
+    <div id="go_to_top">
+      <a href="#"></a>
+    </div>
+    <div id="headerwrap">
+    <input type="checkbox" id="gnbcheck" name="gnbcheck" value="">
+    <label for="gnbcheck" id="gnbbtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <div class="header">
+        <div class="mainlogo">
+          <a href="#"><img src="./img/logo.png" alt="logo"></a>
+        </div>
+        <div class="gnb">
+          <label for="gnbcheck" id="mobile_close_btn"></label>
+          <ul class="mainmenu">
+            <li>
+              <a href="#">o'neul</a>
+              <ul class="submenu">
+                <!-- <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li> -->
+              </ul>
+            </li>
+            <li>
+              <a href="#">Menu</a>
+              <ul class="submenu">
+                <li><a href="#">Luncheon</a></li>
+                <li><a href="#">Dinner</a></li>
+                <li><a href="#">Wedding/Party</a></li>
+                <li><a href="#">Signature wine</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">People</a>
+              <ul class="submenu">
+                <!-- <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li> -->
+              </ul>
+            </li>
+            <li>
+              <a href="#">Room</a>
+              <ul class="submenu">
+                <li><a href="#">Reception</a></li>
+                <li><a href="#">Private Room</a></li>
+                <li><a href="#">Hall</a></li>
+                <li><a href="#">Wedding/Party</a></li>
+              </ul>
+            </li>
+            <!-- <li>
+              <a href="#">Social</a>
+              <ul class="submenu">
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+              </ul>
+            </li> -->
+            <li>
+              <a href="#">Reservation</a>
+              <ul class="submenu">
+                <!-- <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li> -->
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="mainbg">
+    <div class="main-bg">
+      <div class="main-text">
+        <p class="fs-16">Restaurant o'neul</p>
+        <p class="fs-60">o'neul Menu</p>
+      </div>
+    </div>
+  </div>
+    <div id="manu-nav">
+      <div class="manu-wrap">
+        <ul id="tabs">
+          <div class="mobile=menu">
+          <li><a href="#" title="tab1">Luncheon</a></li>
+          <li><a href="#" title="tab2">Dinner</a></li>
+          </div>
+          <div class="mobile=menu2">
+          <li><a href="#" title="tab3">Wedding / Party</a></li>
+          <li><a href="#" title="tab4">Signature wine</a></li>
+          </div>
+        </ul>
+        <div id="content">
+          <div id="tab1">
+            <div id="tab1 tab-info">
+              <p>2021 봄메뉴 봄 그리고 발효를 주제로<br>식문화 연구를 통해 레스토랑 오늘만의 차별화된 메뉴로 구성하여 제공합니다.</p>
+            </div>
+            <div id="tab1 tab1-img">
+              <img src="" alt="">
+            </div>
+            <div id="tab1 tab1-text">
+              <span>Luncheon</span>
+              <p>봄 오찬</p>
+              <span>65,000 KRW</span>
+            </div>
+          </div>
+          <div id="tab2">
+            <div id="tab2 tab-info">
+              <p>2021 봄메뉴 봄 그리고 발효를 주제로<br>식문화 연구를 통해 레스토랑 오늘만의 차별화된 메뉴로 구성하여 제공합니다.</p>
+            </div>
+            <div id="tab2 tab1-img">
+              <img src="" alt="">
+            </div>
+            <div id="tab2 tab1-text">
+              <span>Luncheon</span>
+              <p>  오찬</p>
+              <span>65,000 KRW</span>
+            </div>
+          </div>
+          <div id="tab3">
+            <div id="tab3 tab-info">
+              <p>2021 봄메뉴 봄 그리고 발효를 주제로<br>식문화 연구를 통해 레스토랑 오늘만의 차별화된 메뉴로 구성하여 제공합니다.</p>
+            </div>
+            <div id="tab3 tab1-img">
+              <img src="" alt="">
+            </div>
+            <div id="tab3 tab1-text">
+              <span>Luncheon</span>
+              <p>ㅁ오찬</p>
+              <span>65,000 KRW</span>
+            </div>
+          </div>
+          <div id="tab4">
+            <!-- <div id="tab4 tab-info"> -->
+              <p>2021 봄메뉴 봄 그리고 발효를 주제로<br>식문화 연구를 통해 레스토랑 오늘만의 차별화된 메뉴로 구성하여 제공합니다.</p>
+            <!-- </div> -->
+            <div id="tab4 tab1-img">
+              <img src="" alt="">
+            </div>
+            <div id="tab4 tab1-text">
+              <span>Luncheon</span>
+              <p>ㅂ 오찬</p>
+              <span>65,000 KRW</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
+</body>
+</html>
