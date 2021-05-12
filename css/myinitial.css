@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import "common_b.css";
 body{ font-family: 'Montserrat', 'Noto Sans Korean', 'Montaga', sans-serif; color: #666666; }
 body{ color: #666666; }
 *{ margin: 0; padding: 0; }
@@ -73,11 +74,11 @@ justify-content: flex-end;
 justify-content: center;
 
 플렉스 컨테이너에 적용. 아이템 주축 space-between 정렬.
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+-webkit-box-pack: justify;
+-ms-flex-pack: justify;
+justify-content: space-between;
 
-  플렉스 컨테이너에 적용. 아이템 교차축 start 정렬.
+플렉스 컨테이너에 적용. 아이템 교차축 start 정렬.
 -webkit-box-align: start;
 -ms-flex-align: start;
 align-items: flex-start;
@@ -200,13 +201,15 @@ legend {color:#000;}
 
 .text-color-sub2 { color: #ccc; }
 
+/* 간격 */
+.letter{letter-spacing: 0.3em;}
 
 /* 폰트사이즈 */
-.nsk-font { font-family: 'Noto Sans KR'; }
+.Noto-font { font-family: 'Noto Sans KR'; }
 
-.mtg-font { font-family: 'Montaga'; font-weight: 400; }
+.montaga-font { font-family: 'Montaga'; font-weight: 400; }
 
-.mts-font { font-family: 'Montserrat'; }
+.Montserrat-font { font-family: 'Montserrat'; }
 
 /*font-size*/
 .fs-10 { font-size: 10px; }
