@@ -185,6 +185,20 @@ legend {color:#000;}
 /* YUI CSS Detection Stamp */
 #yui3-css-stamp.cssreset { display: none; }
 
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="image"],
+input[type="tel"],
+button,
+select,
+textarea{-webkit-border-radius:0;-webkit-appearance:none;}
+
+input, textarea, button {-webkit-appearance:none; -moz-appearance:none; appearance:none;}
+
+input, textarea, button, select {-webkit-border-radius:0; -moz-border-radius:0; -o-border-radius:0; border-radius:0;}
+
 /* 폰트 컬러 */
 .ftcolor01{color:#32a2db}
 .ftcolor02{color:#e28223}
