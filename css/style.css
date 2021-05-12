@@ -11,9 +11,9 @@ body{
 input:focus{ outline: none;-webkit-border-radius:0;-webkit-appearance:none;}
 button:focus{ outline: none;-webkit-border-radius:0;-webkit-appearance:none;}
 
-.swiper-button-next{-webkit-border-radius:0;-webkit-appearance:none;}
-.swiper-button-prev{-webkit-border-radius:0;-webkit-appearance:none;}
-.swiper-pagination{-webkit-border-radius:0;-webkit-appearance:none;}
+.swiper-button-next{outline: none;-webkit-border-radius:0;-webkit-appearance:none;}
+.swiper-button-prev{outline: none;-webkit-border-radius:0;-webkit-appearance:none;}
+.swiper-pagination{outline: none;-webkit-border-radius:0;-webkit-appearance:none;}
 
 br .pc{
   display: none;

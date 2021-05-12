@@ -768,7 +768,7 @@ input{ display: none ;}
   content: '***';
   position: absolute;
   margin-top: 50px;
-  left: 49.5%;
+  left: 49.3%;
   color: #c27a34;
 }
 
@@ -796,8 +796,14 @@ input{ display: none ;}
 }
 
 .party-icon span{
-  width: auto;
+  width: 84px;
   height: 84px;
+}
+
+.icon-size{
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
 }
 
 .party-icon ul{
@@ -816,6 +822,7 @@ input{ display: none ;}
 .party-icon p{
   color: #000000;
   font-weight: 600;
+  line-height: 1.8;
 }
 
 .party-info{
@@ -888,8 +895,49 @@ input{ display: none ;}
   text-align: center;
 }
 
+.party-custom .montaga-font{
+  color: #c27a34;
+  margin-bottom: 5px;
+  padding-top: 80px;
+}
 
+.party-custom h2{
+  color: #000000;
+  font-weight: 600;
+}
 
+.party-custom .Montserrat-font{
+  padding-bottom: 100px;
+}
+
+.party-custom .Montserrat-font::after{
+  content: "***";
+  color: #c27a34;
+  position: absolute;
+  margin-top: 60px;
+  left: 49.3%;
+}
+
+.party-custom .fs-22{
+  color: #000;
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+
+.party-custom .custom-img{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 800px;
+  padding: 80px 0;
+  margin: 0 auto;
+}
+
+.party-custom .custom1{
+  width: 250px;
+}
 
 /* footer */
 #footer{
