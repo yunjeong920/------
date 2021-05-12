@@ -17,22 +17,22 @@ input { font-family: inherit; -webkit-appearance: none; -moz-appearance: none; a
 
 input::-ms-clear { display: none; }
 
-input:focus { /* outline: none; */ }
+input:focus { outline: none; }
+
+/* input::-webkit-input-placeholder { font-weight: 200; color: #ccc; }
+
+input:-ms-input-placeholder { font-weight: 200; color: #ccc; }
 
 input::-webkit-input-placeholder { font-weight: 200; color: #ccc; }
 
 input:-ms-input-placeholder { font-weight: 200; color: #ccc; }
 
-input::-webkit-input-placeholder { font-weight: 200; color: #ccc; }
-
-input:-ms-input-placeholder { font-weight: 200; color: #ccc; }
-
-input:placeholder, input::placeholder { font-weight: 200; color: #ccc; }
+input:placeholder, input::placeholder { font-weight: 200; color: #ccc; } */
 
 /* input box color */
-input:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px #ffffff inset; -webkit-text-fill-color: #000000; }
+/* input:-webkit-autofill { -webkit-box-shadow: 0 0 0 30px #ffffff inset; -webkit-text-fill-color: #000000; } */
 
-input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active { transition: background-color 5000s ease-in-out 0s; }
+/* input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active { transition: background-color 5000s ease-in-out 0s; } */
 
 button:focus { outline: none; }
 

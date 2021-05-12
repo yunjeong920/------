@@ -8,8 +8,8 @@ body{
   margin: 0 auto;
 }
 
-input:focus{ outline: none;}
-button:focus{ outline: none;}
+input:focus{ outline: none;-webkit-border-radius:0;-webkit-appearance:none;}
+button:focus{ outline: none;-webkit-border-radius:0;-webkit-appearance:none;}
 
 .swiper-button-next{-webkit-border-radius:0;-webkit-appearance:none;}
 .swiper-button-prev{-webkit-border-radius:0;-webkit-appearance:none;}

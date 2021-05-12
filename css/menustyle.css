@@ -729,6 +729,168 @@ input{ display: none ;}
   font-weight: 200;
   line-height: 1.8;
 }
+
+
+/* party */
+.party{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.party-main{
+  width: 1600px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.party-main2{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.party-text{
+  text-align: center;
+  color: #000000;
+}
+
+.party-text h2{
+  padding-top: 100px;
+  margin-top: -10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.party-text p{
+  padding-bottom: 30px;
+}
+
+.party-text p::after{
+  content: '***';
+  position: absolute;
+  margin-top: 50px;
+  left: 49.5%;
+  color: #c27a34;
+}
+
+.party-text2{
+  padding-top: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.party-text2 .fs-22{
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+
+.party-text2 .fs-16{
+  color: #666;
+  margin-bottom: 60px;
+}
+
+.party-icon{
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.party-icon span{
+  width: auto;
+  height: 84px;
+}
+
+.party-icon ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 3 auto;
+}
+
+.party-icon li{
+  width: 280px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.party-icon p{
+  color: #000000;
+  font-weight: 600;
+}
+
+.party-info{
+  width: 100%;
+  max-width: 1600px;
+  background: white;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.party-info .papa{
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 300px;
+}
+
+.party-info .papa h2{
+  width: 400px;
+  font-weight: 600;
+}
+
+.party-info .papa li{
+  display: block;
+  position: relative;
+  padding-left: 20px;
+}
+
+.party-info .papa li::before{
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background: #c27a34;
+  z-index: 100;
+  margin-top: 8px;
+  left: 0;
+}
+
+.party-info .party1{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.party-info .party2{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 0;
+}
+
+.party-info .party3{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.party-info2{
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
 /* footer */
 #footer{
   background: #383431;
