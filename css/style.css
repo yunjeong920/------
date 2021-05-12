@@ -11,16 +11,9 @@ body{
 input:focus{ outline: none;}
 button:focus{ outline: none;}
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="search"],
-input[type="image"],
-input[type="tel"],
-button,
-select,
-textarea{-webkit-border-radius:0;-webkit-appearance:none;}
-
+.swiper-button-next{-webkit-border-radius:0;-webkit-appearance:none;}
+.swiper-button-prev{-webkit-border-radius:0;-webkit-appearance:none;}
+.swiper-pagination{-webkit-border-radius:0;-webkit-appearance:none;}
 
 br .pc{
   display: none;
