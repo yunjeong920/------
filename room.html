@@ -2,18 +2,17 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>TITLE</title>
-<meta name="description" content="레스토랑 오늘">
+<title>이윤정 레스토랑 오늘 서브 메뉴 페이지</title>
+<meta name="description" content="레스토랑 오늘 room">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./css/myinitial.css">
-<link rel="stylesheet" href="./css/common.css">
 <link rel="stylesheet" href="./css/swiper.min.css">
 <link rel="stylesheet" href="./css/roomstyle.css">
 <link rel="stylesheet" href="./css/roommedia.css">
 <script type="text/javascript" src="./js/jquery_3.5.1.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 <script type="text/javascript" src="./js/swiper.min.js"></script>
-<script type="text/javascript" src="./js/common.js"></script>
+<!-- <script type="text/javascript" src="./js/room.js"></script> -->
 
 <!--[if lt IE 9]>
 <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -39,7 +38,7 @@
           <label for="gnbcheck" id="mobile_close_btn"></label>
           <ul class="mainmenu">
             <li>
-              <a href="#">o'neul</a>
+              <a href="index.html">o'neul</a>
               <ul class="submenu">
                 <!-- <li><a href="#">&nbsp;&nbsp;</a></li>
                 <li><a href="#">&nbsp;&nbsp;</a></li>
@@ -50,14 +49,14 @@
             <li>
               <a href="#">Menu</a>
               <ul class="submenu">
-                <li><a href="#">Luncheon</a></li>
-                <li><a href="#">Dinner</a></li>
-                <li><a href="#">Wedding/Party</a></li>
-                <li><a href="#">Signature wine</a></li>
+                <li><a href="menu.html">Luncheon</a></li>
+                <li><a href="menu.html">Dinner</a></li>
+                <li><a href="menu.html">Wedding/Party</a></li>
+                <li><a href="menu.html">Signature wine</a></li>
               </ul>
             </li>
             <li>
-              <a href="#">People</a>
+              <a href="index.html">People</a>
               <ul class="submenu">
                 <!-- <li><a href="#">&nbsp;&nbsp;</a></li>
                 <li><a href="#">&nbsp;&nbsp;</a></li>
@@ -84,7 +83,7 @@
               </ul>
             </li> -->
             <li>
-              <a href="#">Reservation</a>
+              <a href="index.html">Reservation</a>
               <ul class="submenu">
                 <!-- <li><a href="#">&nbsp;&nbsp;</a></li>
                 <li><a href="#">&nbsp;&nbsp;</a></li>
@@ -96,31 +95,297 @@
         </div>
       </div>
     </div>
+    <div id="mainbg">
+      <div class="main-bg">
+        <div class="main-text">
+          <p class="fs-16 Montserrat-font .letter">Restaurant o'neul</p>
+          <p class="fs-60 montaga-font">o'neul Menu</p>
+        </div>
+      </div>
+    </div>
     <div id="content">
-      <div id="sub_menu">
-      <aside id="main_aside">
+      <div id="sub-menu">
+      <aside id="main-aside">
         <input type="radio" id="first" name="tab" checked>
         <input type="radio" id="second" name="tab">
         <input type="radio" id="third" name="tab">
         <input type="radio" id="fourth" name="tab">
-        <section class="buttons">
-          <label for="first">Luncheon</label>
-          <label for="second">Dinner</label>
-          <label for="third">Wedding / Party</label>
-          <label for="fourth">Signature wine</label>
-        </section>
-        <div class="tab_item">
-
+        <div class="button-wrap">
+          <section class="buttons">
+            <label for="first" class="Montserrat-font fs-22">1F</label>
+            <label for="second" class="Montserrat-font fs-22">2F</label>
+            <label for="third" class="Montserrat-font fs-22">3F</label>
+            <label for="fourth" class="Montserrat-font fs-22">Wedding / Party</label>
+          </section>
         </div>
         <div class="tab_item">
-
+          <div class="room1">
+            <div class="f1">
+              <div class="room-text">
+                <p class="fs-22 montaga-font">1F</p>
+                <h2 class="fs-52 montaga-font">Reception</h2>
+              </div>
+            </div>
+            <div class="swiper-container firstSwiper">
+              <div class="swiper-wrapper">
+                <div data-hash="slide1" class="swiper-slide">
+                  <img src="./img/room/room01_01.jpg" alt="room1">
+                </div>
+                <div data-hash="slide2" class="swiper-slide">
+                  <img src="./img/room/room01_02.jpg" alt="room1">
+                </div>
+                <div data-hash="slide3" class="swiper-slide">
+                  <img src="./img/room/room01_03.jpg" alt="room1">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="roominfo">
+              <p class="fs-24 Noto-font ">레스토랑 오늘에서 고객을 맞이하는 공간</p>
+              <p class="fs-20 Montserrat-font">Restaurant o’neul’s welcoming space</p>
+            </div>
+          </div>
         </div>
+        <script type="text/javascript">
+        $(function(){
+          let roomSwiper = new Swiper(".firstSwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            observeParents: true,
+            observer: true,
+            observeSlideChildren: true,
+            loop: "true",
+            hashNavigation: {
+              watchState: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev"
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+          });
+        })
+        </script>
         <div class="tab_item">
-
+          <div class="room2">
+            <div class="f1">
+              <div class="room-text">
+                <p class="fs-22 montaga-font">2F</p>
+                <h2 class="fs-52 montaga-font">Private Dining Room</h2>
+              </div>
+            </div>
+            <div class="swiper-container secondSwiper">
+              <div class="swiper-wrapper">
+                <div data-hash="slide4" class="swiper-slide">
+                  <img src="./img/room/room02_01.jpg" alt="room2">
+                </div>
+                <div data-hash="slide5" class="swiper-slide">
+                  <img src="./img/room/room02_02.jpg" alt="room2">
+                </div>
+                <div data-hash="slide6" class="swiper-slide">
+                  <img src="./img/room/room02_03.jpg" alt="room2">
+                </div>
+                <div data-hash="slide7" class="swiper-slide">
+                  <img src="./img/room/room02_04.jpg" alt="room2">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="roominfo">
+              <p class="fs-24 Noto-font ">레스토랑 오늘에서 고객을 맞이하는 공간</p>
+              <p class="fs-20 Montserrat-font">Restaurant o’neul’s welcoming space</p>
+            </div>
+          </div>
         </div>
+        <script type="text/javascript">
+        $(function(){
+          let roomSwiper = new Swiper(".secondSwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            observeParents: true,
+            observer: true,
+            observeSlideChildren: true,
+            loop: "true",
+            hashNavigation: {
+              watchState: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev"
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+          });
+        })
+        </script>
         <div class="tab_item">
-
+          <div class="room3">
+            <div class="f1">
+              <div class="room-text">
+                <p class="fs-22 montaga-font">3F</p>
+                <h2 class="fs-52 montaga-font">Hall, Courtyard, Lobby</h2>
+              </div>
+            </div>
+            <div class="swiper-container thirdSwiper">
+              <div class="swiper-wrapper">
+                <div data-hash="slide8" class="swiper-slide">
+                  <img src="./img/room/room03_01.jpg" alt="room3">
+                </div>
+                <div data-hash="slide9" class="swiper-slide">
+                  <img src="./img/room/room03_02.jpg" alt="room3">
+                </div>
+                <div data-hash="slide10" class="swiper-slide">
+                  <img src="./img/room/room03_03.jpg" alt="room3">
+                </div>
+                <div data-hash="slide11" class="swiper-slide">
+                  <img src="./img/room/room03_04.jpg" alt="room3">
+                </div>
+                <div data-hash="slide12" class="swiper-slide">
+                  <img src="./img/room/room03_05.jpg" alt="room3">
+                </div>
+                <div data-hash="slide13" class="swiper-slide">
+                  <img src="./img/room/room03_06.jpg" alt="room3">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="roominfo">
+              <p class="fs-24 Noto-font ">레스토랑 오늘에서 고객을 맞이하는 공간</p>
+              <p class="fs-20 Montserrat-font">Restaurant o’neul’s welcoming space</p>
+            </div>
+          </div>
         </div>
+        <script type="text/javascript">
+        $(function(){
+          let roomSwiper = new Swiper(".thirdSwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            observeParents: true,
+            observer: true,
+            observeSlideChildren: true,
+            hashNavigation: {
+              watchState: true,
+            },
+            loop: "true",
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev"
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+          });
+        })
+        </script>
+        <div class="tab_item">
+          <div class="room4">
+            <div class="f1">
+              <div class="room-text">
+                <p class="fs-22 montaga-font">Roof Top</p>
+                <h2 class="fs-52 montaga-font">Wedding / Party</h2>
+              </div>
+            </div>
+            <div class="swiper-container fourthSwiper">
+              <div class="swiper-wrapper">
+                <div data-hash="slide14" class="swiper-slide">
+                  <img src="./img/room/room04_01.jpg" alt="room4">
+                </div>
+                <div data-hash="slide15" class="swiper-slide">
+                  <img src="./img/room/room04_02.jpg" alt="room4">
+                </div>
+                <div data-hash="slide16" class="swiper-slide">
+                  <img src="./img/room/room04_03.jpg" alt="room4">
+                </div>
+                <div data-hash="slide17" class="swiper-slide">
+                  <img src="./img/room/room04_04.jpg" alt="room4">
+                </div>
+                <div data-hash="slide18" class="swiper-slide">
+                  <img src="./img/room/room04_05.jpg" alt="room4">
+                </div>
+                <div data-hash="slide19" class="swiper-slide">
+                  <img src="./img/room/room04_06.jpg" alt="room4">
+                </div>
+                <div data-hash="slide20" class="swiper-slide">
+                  <img src="./img/room/room04_07.jpg" alt="room4">
+                </div>
+                <div data-hash="slide21" class="swiper-slide">
+                  <img src="./img/room/room04_08.jpg" alt="room4">
+                </div>
+                <div data-hash="slide22" class="swiper-slide">
+                  <img src="./img/room/room04_09.jpg" alt="room4">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="roominfo">
+              <p class="fs-24 Noto-font">전통과 모던함이 어우러진 레스토랑 오늘에서<br class="mobile">이벤트 컨셉에 따라 공간을 다양하게 활용하여 이벤트 다이닝을 즐겨보세요.</p>
+              <p class="fs-20 Montserrat-font">Restaurant o’neul is a harmony of modern and tradition. Our dining space can be customized in various configurations according to your event concept.</p>
+            </div>
+            <div class="roominfo2">
+              <div class="info-box">
+                <div class="info-icon">
+                  <div class="info-img"><img src="./img/room/icon_wine.png" alt="icon"></div>
+                </div>
+                <p class="fs-26 Noto-font fw-500">비즈니스 연회</p>
+                <p class="fs-16 Montserrat-font">Business Party</p>
+                <p class="fs-18 Noto-font fw-400">컨퍼런스 / 브랜드 이벤트/ 신제품 런칭 / 프라이빗 다이닝</p>
+              </div>
+              <div class="info-box">
+                <div class="info-icon">
+                  <div class="info-img"><img src="./img/room/icon_fork.png" alt="icon"></div>
+                </div>
+                <p class="fs-26 Noto-font fw-500">패밀리 다이닝</p>
+                <p class="fs-16 Montserrat-font">Family Dining</p>
+                <p class="fs-18 Noto-font fw-400">생신연/ 돌잔치/ 상견례/ 스몰웨딩</p>
+              </div>
+              <div class="info-box">
+                <div class="info-icon">
+                  <div class="info-img"><img src="./img/room/icon_human.png" alt="icon"></div>
+                </div>
+                <p class="fs-26 Noto-font fw-500">수용인원</p>
+                <p class="fs-16 Montserrat-font">Capacity</p>
+                <p class="fs-18 Noto-font fw-400">20명 - 50명</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+        $(function(){
+          let roomSwiper = new Swiper(".fourthSwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            observeParents: true,
+            observer: true,
+            observeSlideChildren: true,
+            hashNavigation: {
+              watchState: true,
+            },
+            loop: "true",
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev"
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+          });
+        })
+        </script>
       </aside>
      </div>
     </div>
