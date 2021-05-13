@@ -377,7 +377,9 @@ input{ display: none ;}
 #content input:nth-of-type(4) ~ div:nth-of-type(5) { display: none; }
 #content input:nth-of-type(4):checked ~ div:nth-of-type(5) { display: block; }
 
-
+label{
+  cursor: pointer;
+}
 /* 컨텐츠 */
 
 #main-aside{
@@ -858,12 +860,12 @@ input{ display: none ;}
 .party-info .papa li::before{
   content: '';
   position: absolute;
-  width: 7px;
-  height: 7px;
+  width: 5px;
+  height: 5px;
   border-radius: 100%;
   background: #c27a34;
   z-index: 100;
-  margin-top: 8px;
+  margin-top: 9px;
   left: 0;
 }
 
@@ -918,7 +920,7 @@ input{ display: none ;}
   left: 49.3%;
 }
 
-.party-custom .fs-22{
+.party-custom .Noto-font{
   color: #000;
   font-weight: 200;
   margin-bottom: 15px;
@@ -937,6 +939,113 @@ input{ display: none ;}
 
 .party-custom .custom1{
   width: 250px;
+}
+
+.party-custom .custom1 p{
+  font-weight: 600;
+  color: #000;
+}
+
+.wine-wrap{
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.wine-title{
+  text-align: center;
+  height: 850px;
+}
+
+.wine-title .sig{
+  color: #c27a34;
+  letter-spacing: 0.3em;
+  padding-top: 50px;
+}
+
+.wine-title .fs-52{
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.wine-title .fs-20{
+  color: #000;
+  padding-bottom: 40px;
+}
+
+.wine-title .fs-20::after{
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background: #c27a34;
+  margin-top: 60px;
+  left: 49.3%;
+}
+
+.wine-img{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.wine-img .wine1{
+  height: 400px;
+  width: auto;
+  margin: 10px 15px;
+}
+
+.wine-img .wine1 .winepoto{
+  width: 30%;
+  height: 400px;
+}
+
+.wine-img .wine1 .winepoto img{
+  height: 400px;
+  width: auto;
+}
+
+.wine-img p{
+  color: #000;
+  font-weight: 500;
+  margin-top: 30px;
+  padding-bottom: 100px;
+}
+
+.wine-info{
+  width: 100%;
+  background: white;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wine-fee{
+  width: 100%;
+  max-width: 1500px;
+  height: 120px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 120px;
+  border: 1px solid #ccc;
+}
+
+.wine-fee .fs-30{
+  padding-right: 40px;
+  color: #000;
+  font-weight: 500;
+}
+
+.wine-fee .fs-20{
+  color: #000;
 }
 
 /* footer */
