@@ -1,90 +1,13 @@
+$(document).ready(function(){
 
-$(function(){
-  let firstRoom = new Swiper(".firstSwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    observeParents: true,
-    observer: true,
-    observeSlideChildren: true,
-    loop: "true",
-    hashNavigation: {
-      watchState: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-})
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
 
-$(function(){
-  let secondRoom = new Swiper(".secondSwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    observeParents: true,
-    observer: true,
-    observeSlideChildren: true,
-    loop: "true",
-    hashNavigation: {
-      watchState: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-})
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
 
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
 
-$(function(){
-  let thirdRoom = new Swiper(".thirdSwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    observeParents: true,
-    observer: true,
-    observeSlideChildren: true,
-    hashNavigation: {
-      watchState: true,
-    },
-    loop: "true",
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-})
-
-
-$(function(){
-  let fourthRoom = new Swiper(".fourthSwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    observeParents: true,
-    observer: true,
-    observeSlideChildren: true,
-    hashNavigation: {
-      watchState: true,
-    },
-    loop: "true",
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
 })

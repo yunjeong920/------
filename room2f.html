@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>이윤정 레스토랑 오늘 서브 메뉴 페이지</title>
+<meta name="description" content="레스토랑 오늘 room">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/myinitial.css">
+<link rel="stylesheet" href="./css/swiper.min.css">
+<link rel="stylesheet" href="./css/roomstyle.css">
+<link rel="stylesheet" href="./css/roommedia.css">
+<script type="text/javascript" src="./js/jquery_3.5.1.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+<script type="text/javascript" src="./js/swiper.min.js"></script>
+<script type="text/javascript" defer src="./js/room.js"></script>
+
+<!--[if lt IE 9]>
+<script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+  <div id="all-wrap">
+    <div id="go_to_top">
+      <a href="#"></a>
+    </div>
+    <div id="headerwrap">
+    <input type="checkbox" id="gnbcheck" name="gnbcheck" value="">
+    <label for="gnbcheck" id="gnbbtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <div class="header">
+        <div class="mainlogo">
+          <a href="#"><img src="./img/logo.png" alt="logo"></a>
+        </div>
+        <div class="gnb">
+          <label for="gnbcheck" id="mobile_close_btn"></label>
+          <ul class="mainmenu">
+            <li>
+              <a href="index.html">o'neul</a>
+              <ul class="submenu">
+                <!-- <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li> -->
+              </ul>
+            </li>
+            <li>
+              <a href="menu.html">Menu</a>
+              <ul class="submenu">
+                <li><a href="menu.html">Luncheon</a></li>
+                <li><a href="menu.html">Dinner</a></li>
+                <li><a href="menu.html">Wedding/Party</a></li>
+                <li><a href="menu.html">Signature wine</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="index.html">People</a>
+              <ul class="submenu">
+                <!-- <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li> -->
+              </ul>
+            </li>
+            <li>
+              <a href="room1f.html">Room</a>
+              <ul class="submenu">
+                <li><a href="room1f.html">Reception</a></li>
+                <li><a href="room2f.html">Private Room</a></li>
+                <li><a href="room3f.html">Hall</a></li>
+                <li><a href="room4f.html">Wedding/Party</a></li>
+              </ul>
+            </li>
+            <!-- <li>
+              <a href="#">Social</a>
+              <ul class="submenu">
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+              </ul>
+            </li> -->
+            <li>
+              <a href="index.html">Reservation</a>
+              <ul class="submenu">
+                <!-- <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li>
+                <li><a href="#">&nbsp;&nbsp;</a></li> -->
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="mainbg">
+      <div class="main-bg">
+        <div class="main-text">
+          <p class="fs-16 Montserrat-font .letter">Restaurant o'neul</p>
+          <p class="fs-60 montaga-font">o'neul Menu</p>
+        </div>
+      </div>
+    </div>
+    <div id="content">
+      <div id="sub-menu">
+      <aside id="main-aside">
+        <input type="radio" id="first" name="tab" class="tabInput" value="1">
+        <input type="radio" id="second" name="tab" class="tabInput" value="2" checked>
+        <input type="radio" id="third" name="tab" class="tabInput" value="3">
+        <input type="radio" id="fourth" name="tab" class="tabInput" value="4">
+        <div class="button-wrap">
+          <section class="buttons">
+            <label for="first" class="Montserrat-font fs-22"><a href="room.html">1F</a></label>
+            <label for="second" class="Montserrat-font fs-22 text-color-01"><a href="2froom.html" class="text-color-01">2F</a></label>
+            <label for="third" class="Montserrat-font fs-22"><a href="3froom.html">3F</a></label>
+            <label for="fourth" class="Montserrat-font fs-22"><a href="4froom.html">Wedding / Party</a></label>
+          </section>
+        </div>
+        <div class="tab_item">
+          <div class="room1">
+            <div class="f1">
+              <div class="room-text">
+                <p class="fs-22 montaga-font">1F</p>
+                <h2 class="fs-52 montaga-font">Reception</h2>
+              </div>
+            </div>
+            <div class="swiper-container firstSwiper swiper-container-initialized swiper-container-horizontal" id="swiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./img/room/room01_01.jpg" alt="room1">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room01_02.jpg" alt="room1">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room01_03.jpg" alt="room1">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="roominfo">
+              <p class="fs-24 Noto-font ">레스토랑 오늘에서 고객을 맞이하는 공간</p>
+              <p class="fs-20 Montserrat-font">Restaurant o’neul’s welcoming space</p>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+        $(function(){
+          let roomSwiper = new Swiper(".firstSwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            observeParents: true,
+            observer: true,
+            observeSlideChildren: true,
+            loop: "true",
+            hashNavigation: {
+              watchState: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev"
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+          });
+        })
+        </script>
+        <div class="tab_item">
+          <div class="room2">
+            <div class="f1">
+              <div class="room-text">
+                <p class="fs-22 montaga-font">2F</p>
+                <h2 class="fs-52 montaga-font">Private Dining Room</h2>
+              </div>
+            </div>
+            <div class="swiper-container firstSwiper swiper-container-initialized swiper-container-horizontal" id="swiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./img/room/room02_01.jpg" alt="room2">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room02_02.jpg" alt="room2">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room02_03.jpg" alt="room2">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room02_04.jpg" alt="room2">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="roominfo">
+              <p class="fs-24 Noto-font ">레스토랑 오늘에서 고객을 맞이하는 공간</p>
+              <p class="fs-20 Montserrat-font">Restaurant o’neul’s welcoming space</p>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+        $(function(){
+          let secondSwiper = new Swiper(".secondSwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            observeParents: true,
+            observer: true,
+            observeSlideChildren: true,
+            loop: "true",
+            hashNavigation: {
+              watchState: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev"
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+          });
+        })
+        </script>
+        <div class="tab_item">
+          <div class="room3">
+            <div class="f1">
+              <div class="room-text">
+                <p class="fs-22 montaga-font">3F</p>
+                <h2 class="fs-52 montaga-font">Hall, Courtyard, Lobby</h2>
+              </div>
+            </div>
+            <div class="swiper-container firstSwiper swiper-container-initialized swiper-container-horizontal" id="swiper3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./img/room/room03_01.jpg" alt="room3">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room03_02.jpg" alt="room3">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room03_03.jpg" alt="room3">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room03_04.jpg" alt="room3">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room03_05.jpg" alt="room3">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room03_06.jpg" alt="room3">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="roominfo">
+              <p class="fs-24 Noto-font ">레스토랑 오늘에서 고객을 맞이하는 공간</p>
+              <p class="fs-20 Montserrat-font">Restaurant o’neul’s welcoming space</p>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+        $(function(){
+          let thirdSwiper = new Swiper(".thirdSwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            observeParents: true,
+            observer: true,
+            observeSlideChildren: true,
+            hashNavigation: {
+              watchState: true,
+            },
+            loop: "true",
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev"
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+          });
+        })
+        </script>
+        <div class="tab_item">
+          <div class="room4">
+            <div class="f1">
+              <div class="room-text">
+                <p class="fs-22 montaga-font">Roof Top</p>
+                <h2 class="fs-52 montaga-font">Wedding / Party</h2>
+              </div>
+            </div>
+            <div class="swiper-container firstSwiper swiper-container-initialized swiper-container-horizontal" id="swiper4">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./img/room/room04_01.jpg" alt="room4">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room04_02.jpg" alt="room4">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room04_03.jpg" alt="room4">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room04_04.jpg" alt="room4">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room04_05.jpg" alt="room4">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room04_06.jpg" alt="room4">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room04_07.jpg" alt="room4">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room04_08.jpg" alt="room4">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/room/room04_09.jpg" alt="room4">
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="roominfo">
+              <p class="fs-24 Noto-font">전통과 모던함이 어우러진 레스토랑 오늘에서<br class="mobile">이벤트 컨셉에 따라 공간을 다양하게 활용하여 이벤트 다이닝을 즐겨보세요.</p>
+              <p class="fs-20 Montserrat-font">Restaurant o’neul is a harmony of modern and tradition. Our dining space can be customized in various configurations according to your event concept.</p>
+            </div>
+            <div class="roominfo2">
+              <div class="info-box">
+                <div class="info-icon">
+                  <div class="info-img"><img src="./img/room/icon_wine.png" alt="icon"></div>
+                </div>
+                <p class="fs-26 Noto-font fw-500">비즈니스 연회</p>
+                <p class="fs-16 Montserrat-font">Business Party</p>
+                <p class="fs-18 Noto-font fw-400">컨퍼런스 / 브랜드 이벤트/ 신제품 런칭 / 프라이빗 다이닝</p>
+              </div>
+              <div class="info-box">
+                <div class="info-icon">
+                  <div class="info-img"><img src="./img/room/icon_fork.png" alt="icon"></div>
+                </div>
+                <p class="fs-26 Noto-font fw-500">패밀리 다이닝</p>
+                <p class="fs-16 Montserrat-font">Family Dining</p>
+                <p class="fs-18 Noto-font fw-400">생신연/ 돌잔치/ 상견례/ 스몰웨딩</p>
+              </div>
+              <div class="info-box">
+                <div class="info-icon">
+                  <div class="info-img"><img src="./img/room/icon_human.png" alt="icon"></div>
+                </div>
+                <p class="fs-26 Noto-font fw-500">수용인원</p>
+                <p class="fs-16 Montserrat-font">Capacity</p>
+                <p class="fs-18 Noto-font fw-400">20명 - 50명</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+        $(function(){
+          let fourthSwiper = new Swiper(".fourthSwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            observeParents: true,
+            observer: true,
+            observeSlideChildren: true,
+            hashNavigation: {
+              watchState: true,
+            },
+            loop: "true",
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev"
+            },
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+          });
+        })
+        </script>
+      </aside>
+     </div>
+    </div>
+    <footer id="footer">
+      <div class="footer-wrap">
+        <div class="footimg">
+          <img src="./img/logo_f.png" alt="">
+        </div>
+        <div class="mobile-foot-logo">
+          <img src="./img/logo_on.png" alt="">
+        </div>
+        <div class="footer-info">
+          <p class="f-txt1">
+            "레스토랑 오늘은 한식문화의 가치를 연구하고<br class="mobile"> 특별한 경험을 소개하기 위해
+            행복에프앤씨재단에서 운영하는 <br class="mobile"> 한식 다이닝 레스토랑입니다."
+          </p><br>
+          <p class="f-txt2">
+            "O’neul is a Korean dining restaurant operated<br class="mobile">by Happy F&C Foundation that strives to
+            research true values of<br class="mobile">Korean food culture and spread its unique and special experience."
+          </p>
+          <p class="copyright mt-20">
+            Copyright © 2020 The Happiness food and culture foundation all right reserved.
+          </p>
+          </div>
+          <div class="footer-right">
+            <a href="http://www.i-award.or.kr/Web/" target="_blank" class="fr-a"><img src="./img/finalist.png" alt="웹어워드"></a>
+            <a href="http://www.instagram.com/oneu1_restaurant/" target="_blank" class="fr-btn"></a>
+          </div>
+          <div id="site">
+          <select id="familysite">
+            <option value="0" disabled selected hidden>Family Site</option>
+            <option value="1">행복에프엔씨재단</option>
+          </select>
+          </div>
+        </div>
+    </footer>
+  </div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+</body>
+</html>
