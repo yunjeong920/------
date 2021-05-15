@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+*{ word-break: keep-all; }
 @media screen and ( max-width: 1400px ) {
   .mainlogo{ padding-left: 30px;}
   input[type=checked]#gnbcheck{ display: none; }

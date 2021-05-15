@@ -60,7 +60,7 @@ body{
   width: 100%;
   margin: 0 auto;
 }
-
+.pc{display: none;}
 input[type=checked]#gnbcheck{
   display: none;
   -webkit-appearance: none;

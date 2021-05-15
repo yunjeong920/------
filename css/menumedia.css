@@ -28,6 +28,62 @@
   .lun-info2 li::before{
     left: 39%;
   }
+  .dinner-menu{
+    max-width: 1200px;
+  }
+  .dinner-menu .dinner-img{
+    width: 50%;
+    height: 1000px;
+  }
+  .dinner-text{
+    height: 1000px;
+  }
+  .dinner-menu .dinner-img img{
+    width: 600px;
+    height: 1000px;
+  }
+  .party{
+    max-width: 1400px;
+    width: 100%;
+  }
+  .party-main{
+    max-width: 1300px;
+  }
+  .party-main2{
+    max-width: 1300px;
+    width: 100%;
+  }
+  .party-info{
+    max-width: 1300px;
+  }
+  .party-info .papa{
+    margin-left: 100px;
+  }
+  .party-info .papa ul{
+    width: 650px;
+  }
+  .party-info .mobile{
+    display: none;
+  }
+  .wine-title{
+    height: 750px;
+  }
+  .wine-wrap{
+    max-width: 1200px;
+  }
+  .wine-img .wine1{
+    width: 350px;
+  }
+  .wine-img .wine1 .winepoto img{
+    width: 350px;
+    height: auto;
+  }
+  .wine-img .wine1 .winepoto{
+    height: auto;
+  }
+  .wine-fee{
+    max-width: 1200px;
+  }
 }
 
 @media screen and ( max-width: 1200px ) {
@@ -67,6 +123,68 @@
   .lun-info2 li::before{
     margin-top: 5px;
     left: 41%;
+  }
+  .dinner-menu{
+    max-width: 1000px;
+  }
+  .dinner-text ul::before{
+    left: 48%;
+  }
+  .dinner-menutxt a{
+    padding-left: 250px;
+  }
+  .dinner-menu .dinner-img img{
+    width: 500px;
+    height: 800px;
+  }
+  .dinner-text{
+    width: 500px;
+    height: 800px;
+  }
+  .dinner-menutxt span{
+    margin-left: 120px;
+  }
+  .party-main{
+    max-width: 1100px;
+  }
+  .party-main2{
+    max-width: 1100px;
+  }
+  .party-icon{
+    width: 800px;
+  }
+  .party-icon li{
+    width: 250px;
+  }
+  .party-info{
+    max-width: 1100px;
+  }
+  .party-info .papa ul{
+    width: 550px;
+    padding-right: 50px;
+  }
+  .party-info .papa h2{
+    padding-left: 100px;
+  }
+  .wine-title{
+    height: 1500px;
+  }
+  .wine-wrap{
+    max-width: 1000px;
+  }
+  .wine-img{
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .wine-fee{
+    max-width: 1000px;
   }
 }
 
@@ -171,6 +289,89 @@
   .lun-info2 li::before{
     display: none;
   }
+  .dinner-menu{
+    max-width: 800px;
+    height: 1600px;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .dinner-menu{
+    max-width: 800px;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .dinner-menu .dinner-img img{
+    width: 700px;
+    height: 800px;
+  }
+  .dinner-menu .dinner-img{
+    width: 700px;
+    height: 800px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .dinner-text{
+    width: 700px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: 900px;
+  }
+  .dinner-text ul::before{
+    margin: 0;
+    left: 50%;
+  }
+  .party-main{
+    max-width: 860px;
+  }
+  .party-icon{
+    width: 700px;
+  }
+  .party-icon li{
+    width: 220px;
+  }
+  .party-info{
+    max-width: 860px;
+  }
+  .party-info .papa ul{
+    margin-right: 40px;
+    padding-right: 35px;
+  }
+  .party-info .papa h2{
+    padding-left: 0;
+  }
+  .party-custom .custom1{
+    width: 220px;
+  }
+  .wine-wrap{
+    max-width: 800px;
+  }
+  .wine-fee{
+    max-width: 800px;
+  }
 }
 
 @media screen and ( max-width: 770px ) {
@@ -271,6 +472,40 @@
   .lun-info2 li{
     padding-left: 0;
   }
+  .dinner-menu .dinner-img img{
+    width: 500px;
+    height: auto;
+  }
+  .dinner-text{
+    width: 500px;
+  }
+  .dinner-menutxt a{
+    padding-left: 230px;
+  }
+  .dinner-menutxt span{
+    margin-left: 100px;
+  }
+  .party-main{
+    max-width: 670px;
+  }
+  .party-main2{
+    max-width: 670px;
+  }
+  .party-icon{
+    max-width: 650px;
+  }
+  .party-icon li{
+    max-width: 210px;
+  }
+  .party-info{
+    max-width: 670px;
+  }
+  .wine-wrap{
+    max-width: 700px;
+  }
+  .wine-fee{
+    max-width: 700px;
+  }
 }
 
 @media screen and ( max-width: 500px ) {
@@ -320,6 +555,21 @@
   .lunch-info2{
     max-width: 300px;
   }
+  .dinner-menutxt li:nth-child(2){
+    margin-bottom: 15px;
+  }
+  .dinner-menutxt li:nth-child(6){
+    margin-bottom: 15px;
+  }
+  .dinner-menutxt li:nth-child(11){
+    margin-bottom: 15px;
+  }
+  .dinner-menutxt li:nth-child(13){
+    margin-bottom: 15px;
+  }
+  .dinner-menutxt span{
+    font-size: 14px;
+  }
   .lun-info2 ul{
     max-width: 250px;
   }
@@ -328,5 +578,136 @@
   }
   .lun-info-text p{
     word-break: keep-all;
+  }
+  .dinner-menu .dinner-img img{
+    width: 300px;
+  }
+  .dinner-text{
+    width: 300px;
+  }
+  .dinner-menutxt span{
+    margin: 0;
+    position: relative;
+  }
+  .dinner-menutxt a{
+    padding: 0;
+  }
+  .dinner-menutxt{
+    text-align: center;
+  }
+  .dinner-menu2{
+    width: 300px;
+    margin: 0 auto;
+  }
+  .dinner-menu2 .fs-24{
+    word-break: keep-all;
+  }
+  .party-main{
+    max-width: 400px;
+  }
+  .party-main2{
+    max-width: 400px;
+  }
+  .pc{
+    display: block;
+  }
+  .party-icon{
+    max-width: 400px;
+  }
+  .party-icon li{
+    width: 125px;
+  }
+  .party-info{
+    max-width: 400px;
+  }
+  .party-info .papa{
+    max-width: 360px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .party-info .party1{
+    max-width: 350px;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    <del>-webkit-box-lines: multiple;</del>
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .party-info .party2{
+    max-width: 350px;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    <del>-webkit-box-lines: multiple;</del>
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .party-info .party3{
+    max-width: 350px;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    <del>-webkit-box-lines: multiple;</del>
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .party-info .papa li::before{
+    margin-top: 5px;
+  }
+  .party-info .papa ul{
+    width: 340px;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .party-info .papa h2{
+    width: 320px;
+    padding-bottom: 20px;
+  }
+  .party-info .papa li{
+    padding-left: 15px;
+    text-align: left;
+  }
+  .party-custom .custom-img{
+    max-width: 350px;
+  }
+  .wine-wrap{
+    max-width: 300px;
+  }
+  .wine-fee{
+    max-width: 300px;
+  }
+  .wine-img .wine1{
+    width: 300px;
+  }
+  .wine-img .wine1 .winepoto img{
+    width: 300px;
+    height: auto;
   }
 }
