@@ -1,1 +1,324 @@
 @charset "UTF-8";
+
+@media screen and ( max-width: 1400px ) {
+  .lun-menu{
+    width: 100%;
+    max-width: 1200px;
+  }
+  .lun-menu .lun-img{
+    width: 50%;
+    height: auto;
+  }
+  .lun-menu2{
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 50px;
+  }
+  .lun-menu2 .lun-img{
+    width: 50%;
+    height: auto;
+  }
+  .lunch-info2{
+    width: 100%;
+    max-width: 1200px;
+  }
+  .season{
+    padding-right: 40px;
+  }
+  .lun-info2 li::before{
+    left: 39%;
+  }
+}
+
+@media screen and ( max-width: 1200px ) {
+  #mainbg{
+    height: 600px;
+  }
+  #mainbg .main-bg .main-text{
+    min-height: 600px;
+  }
+  .lun-menu{
+    max-width: 1000px;
+    height: 700px;
+  }
+  .lun-menu .lun-img{
+    width: 50%;
+    height: auto;
+  }
+  .lun-menu .lun-img img{
+    width: auto;
+    height: 700px;
+  }
+  .lun-menu2{
+    max-width: 1000px;
+    height: 700px;
+  }
+  .lun-menu2 .lun-img{
+    width: 50%;
+    height: auto;
+  }
+  .lun-menu2 .lun-img img{
+    width: auto;
+    height: 700px;
+  }
+  .lunch-info2{
+    max-width: 1000px;
+  }
+  .lun-info2 li::before{
+    margin-top: 5px;
+    left: 41%;
+  }
+}
+
+@media screen and ( max-width: 960px ) {
+  .lun-menu{
+    max-width: 800px;
+    height: 1400px;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .lun-text{
+    width: 700px;
+    height: 700px;
+  }
+  .lun-menu .lun-img{
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .lun-menu2{
+    max-width: 800px;
+    width: 100%;
+    height: 1500px;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .lun-menu2 .lun-img{
+    max-width: 700px;
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .lun-menu .lun-img img{
+    width: 700px;
+    height: 700px;
+  }
+  .lun-menu2 .lun-img img{
+    width: 700px;
+    height: 700px;
+  }
+  .lunch-info2{
+    max-width: 700px;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .season p{
+    text-align: center;
+  }
+  .season h3{
+    text-align: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+  }
+  .season{
+    border: none;
+    padding: 0;
+  }
+  .lun-info2 ul{
+    padding-top: 50px;
+    text-align: center;
+    margin: 0;
+  }
+  .lun-info2 li::before{
+    display: none;
+  }
+}
+
+@media screen and ( max-width: 770px ) {
+  .buttons{
+    <del>-webkit-box-lines: multiple;</del>
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .button-wrap{
+    height: 140px;
+  }
+  .buttons::before{
+    display: none;
+  }
+  .buttons::after{
+    display: none;
+  }
+  .buttons .lun{
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    border-bottom: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+  }
+  .buttons .din{
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .buttons .par{
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    border-right: 1px solid #f1f1f1;
+  }
+  .buttons .wine{
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+  }
+  .tab-title{
+    height: 150px;
+  }
+  .lun-menu .lun-img img{
+    width: 500px;
+    height: 600px;
+  }
+  .lun-text{
+    width: 500px;
+    height: 600px;
+  }
+  .lun-menu2{
+    height: 1300px;
+  }
+  .lun-menu2 .lun-img img{
+    width: 500px;
+    height: 600px;
+  }
+  .lunch-info2{
+    max-width: 550px;
+  }
+  .lun-info2 li{
+    padding-left: 0;
+  }
+}
+
+@media screen and ( max-width: 500px ) {
+  .fs-22{
+    font-size: 14px;
+  }
+  .mobile{ display: none;}
+  #mainbg .main-bg .main-text .fs-16{
+    font-size: 14px;
+  }
+  .fs-60{
+    font-size: 40px;
+  }
+  .lun-menu{
+    height: 900px;
+  }
+  .lun-menu .lun-img img{
+    width: 300px;
+    height: 400px;
+  }
+  .lun-text{
+    width: 300px;
+    height: 400px;
+  }
+  .lun-text li{
+    margin-bottom: 5px;
+  }
+  .lun-text p:nth-child(3){
+    padding-bottom: 30px;
+  }
+  .lun-menu2{
+    height: 900px;
+  }
+  .lun-menu2 .lun-img img{
+    width: 300px;
+    height: 400px;
+  }
+  .lun-info-text{
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .lunch-info2{
+    max-width: 300px;
+  }
+  .lun-info2 ul{
+    max-width: 250px;
+  }
+  .lun-info2 li{
+    margin-bottom: 25px;
+  }
+}

@@ -618,17 +618,18 @@
   }
 }
 
-@media screen and ( max-width: 480px ) {
+@media screen and ( max-width: 500px ) {
   #all-wrap{ width: 100%; margin: 0 auto;}
   #headerwrap .header .mainlogo img{
     width: 130px;
     height: auto;
+    margin-bottom: 15px;
   }
   #headerwrap .header{
     height: 90px;
   }
   #gnbbtn{
-    top: 40px;
+    top: 35px;
   }
   #main-content{ height: 500px;}
   .pt-50{
@@ -818,7 +819,6 @@
   #headerwrap .header .mainlogo img{
     width: 100px;
     height: auto;
-    margin-bottom: 15px
   }
   #headerwrap .header .gnb ul.mainmenu{
     padding-top: 0px;
