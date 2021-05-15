@@ -277,6 +277,11 @@
   .fs-22{
     font-size: 14px;
   }
+  .tab-title{
+    width: 300px;
+    margin: 0 auto;
+    word-break: keep-all;
+  }
   .mobile{ display: none;}
   #mainbg .main-bg .main-text .fs-16{
     font-size: 14px;
@@ -320,5 +325,8 @@
   }
   .lun-info2 li{
     margin-bottom: 25px;
+  }
+  .lun-info-text p{
+    word-break: keep-all;
   }
 }
