@@ -334,6 +334,9 @@
     width: 100%;
     margin: 0 auto;
   }
+  #headerwrap .header .gnb ul.mainmenu{
+    padding-top: 50px;
+  }
   .pt-50{
     padding-top: 0;
   }
