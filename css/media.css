@@ -18,7 +18,7 @@
   }
   #headerwrap .header .gnb .mainmenu{ margin-left: 0; }
   #headerwrap .header .gnb ul.mainmenu{
-    padding-top: 150px;
+    padding-top: 120px;
     width: 100%;
   }
   #headerwrap .header .gnb ul.mainmenu li{
@@ -620,6 +620,9 @@
 
 @media screen and ( max-width: 500px ) {
   #all-wrap{ width: 100%; margin: 0 auto;}
+  #headerwrap .header .gnb ul.mainmenu{
+    padding-top: 30px;
+  }
   #headerwrap .header .mainlogo img{
     width: 130px;
     height: auto;
