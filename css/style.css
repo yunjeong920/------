@@ -246,6 +246,8 @@ input{ display: none ;}
 .mainmenu .submenu{
   position: relative;
   background: #fff;
+  background: whitesmoke;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   display: none;
 }
 
@@ -265,13 +267,11 @@ input{ display: none ;}
   transition: background .5s;
 }
 
-.mainmenu .submenu li:last-child a{
-  padding-bottom: 30px;
+.mainmenu .submenu li a{
+  padding: 10px 10px;
 }
 
-.mainmenu .submenu li:first-child a{
-  padding-top: 30px;
-}
+
 
 .mainmenu .submenu li:hover a{
   background: #fff;
@@ -352,9 +352,9 @@ input{ display: none ;}
 
 #first{
   word-break: keep-all;
-  margin-top: 180px;
+  padding-top: 180px;
   vertical-align: middle;
-  height: 500px;
+  height: 700px;
 }
 
 #first .first-sec{
@@ -905,7 +905,7 @@ input{ display: none ;}
 #six{
   width: 100%;
   min-height: 700px;
-  margin-top: 180px;
+  padding-top: 200px;
   margin-bottom: 180px;
 }
 

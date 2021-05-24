@@ -1,5 +1,30 @@
 @charset "UTF-8";
 *{ word-break: keep-all; }
+@media screen and ( max-width: 3000px ) {
+  input[type=checked]#gnbcheck{ display: block; }
+  input[type=checkbox]#gnbcheck:checked ~ .header .gnb{ left: 0;}
+  #mobile_close_btn{ display: block; }
+  #gnbbtn{ display: block;}
+  label{ margin-right: 30px;}
+  #headerwrap .header .gnb{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    left: -100%;
+    background: white;
+    transition: 0.5s ease-in-out;
+  }
+  #headerwrap .header .gnb .mainmenu{ margin-left: 0; }
+  #headerwrap .header .gnb ul.mainmenu{
+    padding-top: 120px;
+    width: 100%;
+  }
+  #headerwrap .header .gnb ul.mainmenu li{
+    width: 100%;
+    text-align: center;
+  }
+}
 @media screen and ( max-width: 1400px ) {
   .mainlogo{ padding-left: 30px;}
   input[type=checked]#gnbcheck{ display: none; }
