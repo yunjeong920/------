@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>이윤정 레스토랑 오늘 예약페이지</title>
+<meta name="description" content="DESCRIPTION">
+<link rel="stylesheet" href="./css/myinitial.css">
+<link rel="stylesheet" href="./css/reser.css">
+<!--[if lt IE 9]>
+<script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+  <div class="reser-wrap">
+    <div class="reser">
+      <div class="reser-img">
+      <div class="reser-text">
+        <h1 class="montaga-font fs-40">Restaurant o'neul</h1>
+        <p class="montaga-font fs-24">reservation</p>
+        <form class="reservation" action="index.html" method="post">
+          <span class="fs-20">성명  </span><input type="text" name="" value=""><br>
+          <span class="fs-20">전화번호  </span><input type="tel" name="tel" placeholder="010-****-****" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"><br>
+          <span class="fs-20">예약 희망일  </span><input type="date" name="date" min="2021-05-25"><br>
+          <span class="fs-20">예약 시간  </span><input type="time" name="time" min="09:00" max="19:00"><br>
+          <input type="submit" class="submit" name="" value="예약하기">
+        </form>
+      </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

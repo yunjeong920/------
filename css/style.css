@@ -940,6 +940,23 @@ input{ display: none ;}
   overflow: hidden;
 }
 
+#six button{
+  width: 300px;
+  position: absolute;
+  padding: 20px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  color: #c27a34;
+  border: none;
+  cursor: pointer;
+}
+
+#six button:hover{
+  background: #c27a34;
+  color: #fff;
+}
+
 #six .info-wrap .info-alltext{
   margin-left: 50px;
   margin-right: 50px;
