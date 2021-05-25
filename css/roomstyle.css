@@ -66,6 +66,8 @@ input[type=checked]#gnbcheck{
   -webkit-appearance: none;
  }
 input{ display: none ;}
+
+label{display: none;}
 #mobile_close_btn{
   position: absolute;
   width: 40px;
@@ -135,7 +137,8 @@ input{ display: none ;}
 #headerwrap .header .mainlogo{
   position: absolute;
   display: inline-block;
-  top: 30%
+  top: 30%;
+  padding-left: 30px;
 }
 
 #headerwrap .header .gnb{
@@ -149,7 +152,7 @@ input{ display: none ;}
   text-align: center;
   padding: 0 48px;
   width: 1300px;
-  margin-left: 330px;
+  margin-left: 700px;
 }
 
 #headerwrap .header .gnb .mainmenu > li{
