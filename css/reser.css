@@ -24,26 +24,33 @@ body{
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: url('../img/reser/flower.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 1100px 1100px;
 }
 
 .reser{
   position: absolute;
+  width: 450px;
+  padding: 20px;
+  background: #ccc;
+  border-radius: 10px;
 }
 
 
 .reser h1{
   text-align: center;
   color: #c27a34;
+  font-size: 40px;
 }
 
 .reser p{
   text-align: center;
   padding-bottom: 20px;
   margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.reser-text{
+  background: #fff;
+  border-radius: 10px;
 }
 
 .reser p::after{
@@ -69,6 +76,7 @@ body{
   position: absolute;
   font-weight: 600;
   width: 150px;
+  font-size: 18px;
 }
 
 .reservation span.fs-20{
@@ -99,7 +107,8 @@ body{
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
+  padding-bottom: 20px;
 }
 
 .reservation button a{
@@ -116,5 +125,5 @@ body{
 }
 
 .reservation .cancel{
-  background-color: #ccc;
+  background-color: #999;
 }
