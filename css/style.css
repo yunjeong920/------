@@ -953,6 +953,7 @@ label{display: none;}
   color: #c27a34;
   border: none;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 #six button:hover{

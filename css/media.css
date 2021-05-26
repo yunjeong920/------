@@ -604,6 +604,15 @@
   #six .info-wrap .info-icon2 img{
     display: inline-block;
   }
+  #six button{
+    top: 0;
+    background: #c27a34;
+    color: white;
+  }
+  #six button:hover{
+    color: #c27a34;
+    background: white;
+  }
   #footer .footer-wrap .mobile-foot-logo{
     display: inline-block;
     position: absolute;
