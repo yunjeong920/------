@@ -8,7 +8,6 @@ html{
 
 body{
   width: 100%;
-  max-width: 1700px;
   margin: 0 auto;
 }
 
@@ -84,13 +83,18 @@ br .pc{
   max-width: 100%;
 } */
 
-input[type=checked]#gnbcheck{
+input[type=checked]#gnbcheck,label{
   display: none;
   -webkit-appearance: none;
  }
 input{ display: none ;}
 
-label{display: none;}
+/* label#gnbbtn{display: none;} */
+
+section > label{
+  display: block;
+}
+
 #mobile_close_btn{
   position: absolute;
   width: 40px;
@@ -142,7 +146,6 @@ label{display: none;}
 #headerwrap{
   position: fixed;
   width: 100%;
-  max-width: 1700px;
   margin: 0 auto;
   background: #fff;
   z-index: 5000;
@@ -161,11 +164,12 @@ label{display: none;}
   position: absolute;
   display: inline-block;
   top: 30%;
-  padding-left: 30px;
+  padding-left: 100px;
 }
 
 #headerwrap .header .gnb{
   position: absolute;
+  margin: 0 auto;
   z-index: 7000;
 }
 
@@ -175,7 +179,7 @@ label{display: none;}
   text-align: center;
   padding: 0 48px;
   width: 1300px;
-  margin-left: 700px;
+  margin-left: 1400px;
 }
 
 #headerwrap .header .gnb .mainmenu > li{
@@ -248,8 +252,7 @@ label{display: none;}
 /* sub 메뉴 */
 .mainmenu .submenu{
   position: relative;
-  background: #fff;
-  background: whitesmoke;
+  background: snow;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   display: none;
 }
@@ -292,7 +295,7 @@ label{display: none;}
 #main-content{
   word-break: keep-all;
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   max-height: 1100px;
   margin: 0 auto;
 }
@@ -300,7 +303,6 @@ label{display: none;}
 #main-content .swiper-container{
   width: 100%;
   height: 100%;
-  padding-top: 150px;
 }
 
 #main-content .swiper-slide{
@@ -341,21 +343,25 @@ label{display: none;}
 }
 
 #main-content .maintext{
+  width: 100%;
+  height: 100%;
   color: white;
-  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
 /* 섹션1 */
-/* #content{
-  min-height: 600px;
-  margin-top: 150px;
-  margin-bottom: 150px;
-} */
+#content{
+  max-width: 1700px;
+  margin: 0 auto;
+}
 
 #first{
   word-break: keep-all;
-  padding-top: 180px;
+  padding-top: 200px;
   vertical-align: middle;
   height: 700px;
 }
@@ -937,30 +943,6 @@ label{display: none;}
   justify-content: center;
 }
 
-#six .info-wrap .info-img img{
-  width: 80%;
-  height: 100%;
-  overflow: hidden;
-}
-
-#six button{
-  width: 300px;
-  position: absolute;
-  padding: 20px;
-  background: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  color: #c27a34;
-  border: none;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-#six button:hover{
-  background: #c27a34;
-  color: #fff;
-}
-
 #six .info-wrap .info-alltext{
   margin-left: 50px;
   margin-right: 50px;
@@ -1006,6 +988,96 @@ label{display: none;}
   padding-left: 50px;
 }
 
+#ex1 .reser-wrap input{
+  display: inline-block;
+}
+
+#six .fs-24{
+  width: 100%;
+  margin-top: 60px;
+  text-align: center;
+}
+
+#six .fs-24 .button{
+  padding: 20px 25px;
+  color: #fff;
+  background: #c27a34;
+  border-radius: 5px;
+}
+
+#six .fs-24 .button:hover{
+  color: #c27a34;
+  border: 2px solid #c27a34;
+  background: #fff;
+}
+
+.reservation span{
+  position: absolute;
+  font-weight: 600;
+  width: 150px;
+  font-size: 18px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.reservation input{
+  margin-left: 170px;
+  padding: 5px 5px;
+  border: none;
+  border: 2px solid #ccc;
+  color: #777;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.reser h1{
+  text-align: center;
+  color: #c27a34;
+  font-size: 40px;
+}
+
+.reser p{
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.reservation button{
+  text-align: center;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #c27a34;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.btn{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.reservation button a{
+  color: #fff
+}
+
+.reservation button:hover{
+  background-color: gold;
+  transition: 1s;
+}
+
+.reservation .cancel{
+  background-color: #999;
+}
+
+.reservation .cancel:hover{
+  background: red;
+}
 /* 푸터영역 */
 #footer{
   background: #383431;
@@ -1070,12 +1142,12 @@ label{display: none;}
   text-align: center;
   padding-left: 15px;
   padding-right: 30px;
-  border-radius: 15px;
   background-image: url('../img/down_arrow.png');
   background-repeat: no-repeat;
   background-position: calc( 100% - 15px ) center;;
 }
 
 #familysite:focus{
+    padding: 8px 3px;
     background-image: url('../img/down_arrow_2.png');
 }
