@@ -165,6 +165,7 @@ section > label{
   display: inline-block;
   top: 30%;
   padding-left: 100px;
+  z-index: 8000;
 }
 
 #headerwrap .header .gnb{
