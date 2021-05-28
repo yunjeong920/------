@@ -164,12 +164,19 @@ section > label{
   position: absolute;
   display: inline-block;
   top: 30%;
-  padding-left: 100px;
+  padding-left: 50px;
   z-index: 8000;
 }
 
 #headerwrap .header .gnb{
   position: absolute;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   margin: 0 auto;
   z-index: 7000;
 }
@@ -179,8 +186,6 @@ section > label{
   display: inline-block;
   text-align: center;
   padding: 0 48px;
-  width: 1300px;
-  margin-left: 1400px;
 }
 
 #headerwrap .header .gnb .mainmenu > li{
@@ -347,9 +352,15 @@ section > label{
   width: 100%;
   height: 100%;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -ms-flex-direction: column;
   flex-direction: column;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
