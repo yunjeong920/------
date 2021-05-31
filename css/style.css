@@ -1132,6 +1132,10 @@ section > label{
   float: right;
 }
 
+#footer .footer-wrap .footer-right a{
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
 #footer .footer-wrap .footer-right .fr-btn::after{
   display: inline-block;
   position: relative;
