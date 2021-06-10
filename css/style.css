@@ -129,6 +129,7 @@ section > label{
   width: 32px;
   height: 32px;
   z-index: 9001;
+  cursor: pointer;
 }
 
 #gnbbtn span{
